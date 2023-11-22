@@ -1,0 +1,22 @@
+version: 3.1
+##!Exported by CONVERGE Studio v3.1 May 10 2023 14:30:26
+---
+
+cells:
+   geometry:              [grid_level, logic_ijk, idreg]
+   general:
+      -                   mach
+      -                   cp
+      -                   cv
+      -                   density
+      -                   mol_cond
+      -                   mol_visc
+      -                   pressure
+      -                   temperature
+      -                   total_pressure
+      -                   total_temperature
+      -                   velocity
+      -                   volume
+   turbulence:            [sgs_eps, sgs_ke, turb_viscosity]
+   species_massfrac:      [OH, O2, H2O, H2]
+

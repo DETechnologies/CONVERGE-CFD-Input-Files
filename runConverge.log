@@ -1,0 +1,1805 @@
+Successfully checked out 1 superbase licenses
+[37mWed Nov 22 11:51:59 2023[0m
+rdebros-desktop[37m
+
+********************************************************************************
+*                                                                              *
+*     This software is Proprietary to Convergent Science Inc. (2008-2023)      *
+*                            CONVERGE Release 3.1.9                            *
+*                                 May  5 2023                                  *
+*                           MPI Version: INTEL 2021.1                          *
+*                                                                              *
+*                                                                              *
+*       CEQ equilibrium solver is included under license agreement with        *
+*                      Ithaca Combustion Enterprise LLC.                       *
+*                                                                              *
+*  Adaptive zoning chemistry solver is included under license agreement with   *
+*       Lawrence Livermore National Security, LLC. All rights reserved.        *
+*                                                                              *
+********************************************************************************[0m
+
+[37m [0m
+[35mFound the file 'stream_settings.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/stream_settings.in'.[0m
+[35mreading data from the file stream_settings.in[0m
+[35mreading stream_settings.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/stream_settings.in[0m
+[35mFound the file 'hidden.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/hidden.in'.[0m
+[35mreading data from the file hidden.in[0m
+[35mreading       hidden.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/hidden.in[0m
+
+****************HIDDEN INPUT: update_slope_limiter_freq is set to 3.
+
+****************HIDDEN INPUT: update_muscl_grad_freq is set to 3.
+[35mFound the file 'inputs.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/inputs.in'.[0m
+[35mreading data from the file inputs.in[0m
+[35mreading       inputs.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/inputs.in[0m
+[35mFound the file 'turbulence.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/turbulence.in'.[0m
+[35mreading data from the file turbulence.in[0m
+[35mreading   turbulence.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/turbulence.in[0m
+[35mcalculated log-law parameters in 4 iterations: E = 10.074425, yplus_transition = 11.266209 from law_kappa = 0.420000 and law_c = 5.500000[0m
+
+creating pathname outputs_original/output 
+
+[35mFound the file 'combust.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/combust.in'.[0m
+[35mreading data from the file combust.in[0m
+[35mreading      combust.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/combust.in[0m
+[35mFound the file 'mech.dat' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/mech.dat'.[0m
+[35mreading data from the file mech.dat[0m
+[35mFound the file 'mech.dat' for 'mechanism_filename' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/mech.dat'.[0m
+[35mreading data from the file mech.dat[0m
+[35mReading chemical mechanism from /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/mech.dat...[0m
+[35mreading data from the file combust.in[0m
+[35mThere are 21 reactions and 10 species.[0m
+[35mFound the file 'therm.dat' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/therm.dat'.[0m
+[35mreading data from the file therm.dat[0m
+[35mReading thermodynamic information from therm.dat...[0m
+[35mFound the file 'initialize.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/initialize.in'.[0m
+[35mreading data from the file initialize.in[0m
+[35mreading   initialize.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/initialize.in[0m
+[35mFound the file 'solver.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/solver.in'.[0m
+[35mreading data from the file solver.in[0m
+[35mreading       solver.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/solver.in[0m
+[35mtransport data found for all the species[0m
+creating diffusion coefficient(Dij) tables...
+diffusion coefficient tables calculated.
+[35mFound the file 'boundary.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/boundary.in'.[0m
+[35mreading data from the file boundary.in[0m
+[35mreading     boundary.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/boundary.in[0m
+[35mFound the file 'events.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/events.in'.[0m
+[35mreading data from the file events.in[0m
+[35mreading       events.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/events.in[0m
+region id size = 2, entry 1 = 0
+Opening time/crank between regions 0 and 1 is -1.000000e+30.
+region id size = 2, entry 1 = 1
+Opening time/crank between regions 1 and 2 is -1.000000e+30.
+region id size = 2, entry 1 = 1
+Opening time/crank between regions 1 and 3 is -1.000000e+30.
+region id size = 2, entry 1 = 0
+Opening time/crank between regions 0 and 2 is -1.000000e+30.
+region id size = 2, entry 1 = 0
+Opening time/crank between regions 0 and 3 is -1.000000e+30.
+[35mFound the file 'amr.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/amr.in'.[0m
+[35mreading data from the file amr.in[0m
+[35mreading          amr.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/amr.in[0m
+[35mreading     surface.dat data from file surface.dat[0m
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 2
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+Creating disconnect triangles for a single loop between regions 0 and 3
+[35mFound the file 'embedded.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/embedded.in'.[0m
+[35mreading data from the file embedded.in[0m
+[35mreading     embedded.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/embedded.in[0m
+Area of periodic boundary 6:       0.000000039062.
+Area of periodic boundary 7:       0.000000039062.
+Periodic boundary area diff:   0.000000000000e+00.
+Area of periodic boundary 8:       0.000000258789.
+Area of periodic boundary 9:       0.000000258789.
+Periodic boundary area diff:   0.000000000000e+00.
+[35mFound the file 'post.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/post.in'.[0m
+[35mreading data from the file post.in[0m
+[35mreading         post.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/post.in[0m
+[35mFound the file 'combust_region.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/combust_region.in'.[0m
+[35mreading data from the file combust_region.in[0m
+[35mreading combust_region.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/combust_region.in[0m
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 2
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+CLOSING EVENT: activating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 2
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+OPENING EVENT: deactivating triangles in a disconnect group between regions 0 and 3
+[35mFound the file 'source.in' at '/home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/source.in'.[0m
+[35mreading data from the file source.in[0m
+[35mreading       source.in data from file /home/rdebros/Desktop/RDE Bros/10 - Individual Working Folders/Aidan/2D-Unrolled-RDE-NASA_v1/source.in[0m
+Finished checking periodic boundaries:          6          7
+Finished checking periodic boundaries:          8          9
+check periodic boundary area:          6       0.019999999553
+check periodic boundary area:          7       0.019999999553
+check periodic boundary area:          8       0.132499992847
+check periodic boundary area:          9       0.132499992847
+Performing Load Balance.
+Imbalance Factors:
+		for all cells is                           : 174.79
+Load Balance Completed.
+Imbalance Factors:
+		for all cells is                           : 142.45
+Performing Load Balance.
+Imbalance Factors:
+		for all cells is                           : 110.93
+Load Balance Completed.
+Imbalance Factors:
+		for all cells is                           : 100.00
+cell_count at grid size 1.000000e-03 with embed level 0 is: 72080
+cell_count at grid size 5.000000e-04 with embed level 1 is: 4640
+cell_count at grid size 2.500000e-04 with embed level 2 is: 26880
+
+Transport stream group formed for streams [0].
+[35mWriting post file outputs_original/output/post000001_+0.00000e+00.h5 .........[0m
+[35mWriting post file outputs_original/output/post000001_+0.00000e+00.h5 complete[0m
+[35mWriting restart file outputs_original/restart0001.rst .........[0m
+[35mFinished writing restart file outputs_original/restart0001.rst[0m
+[1m[  0.00%] [0m[32mncyc        1;  Time    1.000000000e-12 (sec); dt=    1.250000000e-12 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc        2;  Time    2.250000000e-12 (sec); dt=    1.562500000e-12 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc        3;  Time    3.812500000e-12 (sec); dt=    1.953125000e-12 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc        4;  Time    5.765625000e-12 (sec); dt=    2.441406250e-12 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc        5;  Time    8.207031250e-12 (sec); dt=    3.051757812e-12 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc        6;  Time    1.125878906e-11 (sec); dt=    3.814697266e-12 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc        7;  Time    1.507348633e-11 (sec); dt=    4.768371582e-12 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc        8;  Time    1.984185791e-11 (sec); dt=    5.960464478e-12 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc        9;  Time    2.580232239e-11 (sec); dt=    7.450580597e-12 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       10;  Time    3.325290298e-11 (sec); dt=    9.313225746e-12 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       11;  Time    4.256612873e-11 (sec); dt=    1.164153218e-11 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       12;  Time    5.420766091e-11 (sec); dt=    1.455191523e-11 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       13;  Time    6.875957614e-11 (sec); dt=    1.818989404e-11 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       14;  Time    8.694947018e-11 (sec); dt=    2.273736754e-11 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       15;  Time    1.096868377e-10 (sec); dt=    2.842170943e-11 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       16;  Time    1.381085472e-10 (sec); dt=    3.552713679e-11 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       17;  Time    1.736356839e-10 (sec); dt=    4.440892099e-11 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       18;  Time    2.180446049e-10 (sec); dt=    5.551115123e-11 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       19;  Time    2.735557562e-10 (sec); dt=    6.938893904e-11 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       20;  Time    3.429446952e-10 (sec); dt=    8.673617380e-11 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       21;  Time    4.296808690e-10 (sec); dt=    1.084202172e-10 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       22;  Time    5.381010862e-10 (sec); dt=    1.355252716e-10 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       23;  Time    6.736263578e-10 (sec); dt=    1.694065895e-10 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       24;  Time    8.430329473e-10 (sec); dt=    2.117582368e-10 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       25;  Time    1.054791184e-09 (sec); dt=    2.646977960e-10 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       26;  Time    1.319488980e-09 (sec); dt=    3.308722450e-10 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       27;  Time    1.650361225e-09 (sec); dt=    4.135903063e-10 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       28;  Time    2.063951531e-09 (sec); dt=    5.169878828e-10 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       29;  Time    2.580939414e-09 (sec); dt=    6.462348536e-10 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       30;  Time    3.227174268e-09 (sec); dt=    8.077935669e-10 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       31;  Time    4.034967835e-09 (sec); dt=    1.009741959e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       32;  Time    5.044709793e-09 (sec); dt=    1.262177448e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       33;  Time    6.306887242e-09 (sec); dt=    1.577721810e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       34;  Time    7.884609052e-09 (sec); dt=    1.972152263e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       35;  Time    9.856761315e-09 (sec); dt=    2.465190329e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       36;  Time    1.232195164e-08 (sec); dt=    3.081487911e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       37;  Time    1.540343956e-08 (sec); dt=    3.851859889e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       38;  Time    1.925529944e-08 (sec); dt=    4.814824861e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       39;  Time    2.407012430e-08 (sec); dt=    6.018531076e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       40;  Time    3.008865538e-08 (sec); dt=    7.523163845e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       41;  Time    3.761181923e-08 (sec); dt=    9.403954807e-09 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       42;  Time    4.701577403e-08 (sec); dt=    1.175494351e-08 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       43;  Time    5.877071754e-08 (sec); dt=    1.469367939e-08 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       44;  Time    7.346439693e-08 (sec); dt=    1.836709923e-08 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       45;  Time    9.183149616e-08 (sec); dt=    2.295887404e-08 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       46;  Time    1.147903702e-07 (sec); dt=    2.869859255e-08 (dt_grow)[0m[32m [0m
+[1m[  0.00%] [0m[32mncyc       47;  Time    1.434889627e-07 (sec); dt=    3.587324069e-08 (dt_grow)[0m[32m [0m
+[1m[  0.01%] [0m[32mncyc       48;  Time    1.793622034e-07 (sec); dt=    4.484155086e-08 (dt_grow)[0m[32m [0m
+[1m[  0.01%] [0m[32mncyc       49;  Time    2.242037543e-07 (sec); dt=    5.605193857e-08 (dt_grow)[0m[32m [0m
+[1m[  0.01%] [0m[32mncyc       50;  Time    2.802556929e-07 (sec); dt=    7.006492322e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.01%] [0m[32mncyc       51;  Time    3.152881545e-07 (sec); dt=    4.379057701e-08 (dt_grow)[0m[32m [0m
+[1m[  0.01%] [0m[32mncyc       52;  Time    3.590787315e-07 (sec); dt=    5.473822126e-08 (dt_grow)[0m[32m [0m
+[1m[  0.01%] [0m[32mncyc       53;  Time    4.138169527e-07 (sec); dt=    6.842277658e-08 (dt_grow)[0m[32m [0m
+[1m[  0.02%] [0m[32mncyc       54;  Time    4.822397293e-07 (sec); dt=    8.552847072e-08 (dt_grow)[0m[32m [0m
+[1m[  0.02%] [0m[32mncyc       55;  Time    5.677682000e-07 (sec); dt=    1.037202828e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.02%] [0m[32mncyc       56;  Time    6.714884828e-07 (sec); dt=    1.105580822e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.03%] [0m[32mncyc       57;  Time    7.820465650e-07 (sec); dt=    1.148292377e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.03%] [0m[32mncyc       58;  Time    8.968758027e-07 (sec); dt=    1.136080130e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.03%] [0m[32mncyc       59;  Time    1.010483816e-06 (sec); dt=    1.158857600e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.04%] [0m[32mncyc       60;  Time    1.126369576e-06 (sec); dt=    1.143183847e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.04%] [0m[32mncyc       61;  Time    1.240687960e-06 (sec); dt=    1.142459860e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.05%] [0m[32mncyc       62;  Time    1.354933946e-06 (sec); dt=    1.136461214e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.05%] [0m[32mncyc       63;  Time    1.468580068e-06 (sec); dt=    1.141339143e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.05%] [0m[32mncyc       64;  Time    1.582713982e-06 (sec); dt=    1.124472147e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.06%] [0m[32mncyc       65;  Time    1.695161197e-06 (sec); dt=    1.121550708e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.06%] [0m[32mncyc       66;  Time    1.807316268e-06 (sec); dt=    1.132788264e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.06%] [0m[32mncyc       67;  Time    1.920595094e-06 (sec); dt=    1.139223951e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.07%] [0m[32mncyc       68;  Time    2.034517489e-06 (sec); dt=    1.125626213e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.07%] [0m[32mncyc       69;  Time    2.147080111e-06 (sec); dt=    1.192990814e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.08%] [0m[32mncyc       70;  Time    2.266379192e-06 (sec); dt=    1.231867993e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.08%] [0m[32mncyc       71;  Time    2.389565991e-06 (sec); dt=    1.283460113e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.08%] [0m[32mncyc       72;  Time    2.517912003e-06 (sec); dt=    1.365585219e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.09%] [0m[32mncyc       73;  Time    2.654470524e-06 (sec); dt=    1.431557019e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.09%] [0m[32mncyc       74;  Time    2.797626226e-06 (sec); dt=    1.469477348e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.10%] [0m[32mncyc       75;  Time    2.944573961e-06 (sec); dt=    1.477065745e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.10%] [0m[32mncyc       76;  Time    3.092280536e-06 (sec); dt=    1.491877443e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.11%] [0m[32mncyc       77;  Time    3.241468280e-06 (sec); dt=    1.499676274e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.11%] [0m[32mncyc       78;  Time    3.391435907e-06 (sec); dt=    1.504602782e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.12%] [0m[32mncyc       79;  Time    3.541896186e-06 (sec); dt=    1.505908460e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.12%] [0m[32mncyc       80;  Time    3.692487032e-06 (sec); dt=    1.472310625e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.13%] [0m[32mncyc       81;  Time    3.839718094e-06 (sec); dt=    1.523590520e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.13%] [0m[32mncyc       82;  Time    3.992077146e-06 (sec); dt=    1.514752918e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.14%] [0m[32mncyc       83;  Time    4.143552438e-06 (sec); dt=    1.501223458e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.14%] [0m[32mncyc       84;  Time    4.218613611e-06 (sec); dt=    9.382646609e-08 (dt_grow)[0m[32m [0m
+[1m[  0.14%] [0m[32mncyc       85;  Time    4.312440077e-06 (sec); dt=    1.172830826e-07 (dt_grow)[0m[32m [0m
+[1m[  0.15%] [0m[32mncyc       86;  Time    4.429723159e-06 (sec); dt=    1.466038533e-07 (dt_grow)[0m[32m [0m
+[1m[  0.15%] [0m[32mncyc       87;  Time    4.576327013e-06 (sec); dt=    1.522094904e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.16%] [0m[32mncyc       88;  Time    4.728536503e-06 (sec); dt=    1.528629692e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.16%] [0m[32mncyc       89;  Time    4.881399472e-06 (sec); dt=    1.530075642e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.17%] [0m[32mncyc       90;  Time    5.034407036e-06 (sec); dt=    1.538202940e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.17%] [0m[32mncyc       91;  Time    5.188227330e-06 (sec); dt=    1.525096608e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.18%] [0m[32mncyc       92;  Time    5.340736991e-06 (sec); dt=    1.519257292e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.18%] [0m[32mncyc       93;  Time    5.492662720e-06 (sec); dt=    1.550006829e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.19%] [0m[32mncyc       94;  Time    5.647663403e-06 (sec); dt=    1.537543952e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.19%] [0m[32mncyc       95;  Time    5.801417798e-06 (sec); dt=    1.552327912e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.20%] [0m[32mncyc       96;  Time    5.956650590e-06 (sec); dt=    1.547145273e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.20%] [0m[32mncyc       97;  Time    6.111365117e-06 (sec); dt=    1.555341741e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.21%] [0m[32mncyc       98;  Time    6.189132204e-06 (sec); dt=    9.720885880e-08 (dt_grow)[0m[32m [0m
+[1m[  0.21%] [0m[32mncyc       99;  Time    6.286341063e-06 (sec); dt=    1.215110735e-07 (dt_grow)[0m[32m [0m
+[1m[  0.21%] [0m[32mncyc      100;  Time    6.407852136e-06 (sec); dt=    1.518888419e-07 (dt_grow)[0m[32m [0m
+[1m[  0.22%] [0m[32mncyc      101;  Time    6.559740978e-06 (sec); dt=    1.536082604e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.22%] [0m[32mncyc      102;  Time    6.713349239e-06 (sec); dt=    1.567578614e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.23%] [0m[32mncyc      103;  Time    6.870107100e-06 (sec); dt=    1.552989281e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.23%] [0m[32mncyc      104;  Time    7.025406028e-06 (sec); dt=    1.578056584e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.24%] [0m[32mncyc      105;  Time    7.183211687e-06 (sec); dt=    1.563404207e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.24%] [0m[32mncyc      106;  Time    7.261381897e-06 (sec); dt=    9.771276294e-08 (dt_grow)[0m[32m [0m
+[1m[  0.25%] [0m[32mncyc      107;  Time    7.359094660e-06 (sec); dt=    1.221409537e-07 (dt_grow)[0m[32m [0m
+[1m[  0.25%] [0m[32mncyc      108;  Time    7.481235614e-06 (sec); dt=    1.526761921e-07 (dt_grow)[0m[32m [0m
+[1m[  0.25%] [0m[32mncyc      109;  Time    7.633911806e-06 (sec); dt=    1.579398625e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.26%] [0m[32mncyc      110;  Time    7.791851668e-06 (sec); dt=    1.574445748e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.26%] [0m[32mncyc      111;  Time    7.949296243e-06 (sec); dt=    1.559935136e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.27%] [0m[32mncyc      112;  Time    8.105289757e-06 (sec); dt=    1.578459834e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.27%] [0m[32mncyc      113;  Time    8.184212748e-06 (sec); dt=    9.865373962e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.27%] [0m[32mncyc      114;  Time    8.233539618e-06 (sec); dt=    6.165858726e-08 (dt_grow)[0m[32m [0m
+[1m[  0.28%] [0m[32mncyc      115;  Time    8.295198205e-06 (sec); dt=    7.707323408e-08 (dt_grow)[0m[32m [0m
+[1m[  0.28%] [0m[32mncyc      116;  Time    8.372271439e-06 (sec); dt=    9.634154260e-08 (dt_grow)[0m[32m [0m
+[1m[  0.28%] [0m[32mncyc      117;  Time    8.468612982e-06 (sec); dt=    1.204269282e-07 (dt_grow)[0m[32m [0m
+[1m[  0.29%] [0m[32mncyc      118;  Time    8.589039910e-06 (sec); dt=    1.505336603e-07 (dt_grow)[0m[32m [0m
+[1m[  0.29%] [0m[32mncyc      119;  Time    8.739573571e-06 (sec); dt=    1.584986327e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.30%] [0m[32mncyc      120;  Time    8.898072203e-06 (sec); dt=    1.576163665e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.30%] [0m[32mncyc      121;  Time    9.055688570e-06 (sec); dt=    1.582291393e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.31%] [0m[32mncyc      122;  Time    9.213917709e-06 (sec); dt=    1.575321263e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.31%] [0m[32mncyc      123;  Time    9.371449835e-06 (sec); dt=    1.572317553e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.32%] [0m[32mncyc      124;  Time    9.528681591e-06 (sec); dt=    1.541209219e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.32%] [0m[32mncyc      125;  Time    9.605742052e-06 (sec); dt=    9.632557616e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.32%] [0m[32mncyc      126;  Time    9.653904840e-06 (sec); dt=    6.020348510e-08 (dt_grow)[0m[32m [0m
+[1m[  0.32%] [0m[32mncyc      127;  Time    9.714108325e-06 (sec); dt=    7.525435638e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.33%] [0m[32mncyc      128;  Time    9.751735503e-06 (sec); dt=    4.703397274e-08 (dt_grow)[0m[32m [0m
+[1m[  0.33%] [0m[32mncyc      129;  Time    9.798769476e-06 (sec); dt=    5.879246592e-08 (dt_grow)[0m[32m [0m
+[1m[  0.33%] [0m[32mncyc      130;  Time    9.857561942e-06 (sec); dt=    7.349058240e-08 (dt_grow)[0m[32m [0m
+[1m[  0.33%] [0m[32mncyc      131;  Time    9.931052524e-06 (sec); dt=    9.186322800e-08 (dt_grow)[0m[32m [0m
+[35mWriting post file outputs_original/output/post000002_+1.00229e-05.h5 .........[0m
+[35mWriting post file outputs_original/output/post000002_+1.00229e-05.h5 complete[0m
+[35mWriting restart file outputs_original/restart0002.rst .........[0m
+[35mFinished writing restart file outputs_original/restart0002.rst[0m
+[1m[  0.33%] [0m[32mncyc      132;  Time    1.002291575e-05 (sec); dt=    1.148290350e-07 (dt_grow)[0m[32m [0m
+[1m[  0.34%] [0m[32mncyc      133;  Time    1.013774479e-05 (sec); dt=    1.435362938e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.34%] [0m[32mncyc      134;  Time    1.020951293e-05 (sec); dt=    8.971018359e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.34%] [0m[32mncyc      135;  Time    1.025436803e-05 (sec); dt=    5.606886475e-08 (dt_grow)[0m[32m [0m
+[1m[  0.34%] [0m[32mncyc      136;  Time    1.031043689e-05 (sec); dt=    7.008608093e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.34%] [0m[32mncyc      137;  Time    1.034547993e-05 (sec); dt=    4.380380058e-08 (dt_grow)[0m[32m [0m
+[1m[  0.35%] [0m[32mncyc      138;  Time    1.038928373e-05 (sec); dt=    5.475475073e-08 (dt_grow)[0m[32m [0m
+[1m[  0.35%] [0m[32mncyc      139;  Time    1.044403848e-05 (sec); dt=    6.844343841e-08 (dt_grow)[0m[32m [0m
+[1m[  0.35%] [0m[32mncyc      140;  Time    1.051248192e-05 (sec); dt=    8.555429801e-08 (dt_grow)[0m[32m [0m
+[1m[  0.35%] [0m[32mncyc      141;  Time    1.059803622e-05 (sec); dt=    1.069428725e-07 (dt_grow)[0m[32m [0m
+[1m[  0.36%] [0m[32mncyc      142;  Time    1.070497909e-05 (sec); dt=    1.336785906e-07 (dt_grow)[0m[32m [0m
+[1m[  0.36%] [0m[32mncyc      143;  Time    1.083865768e-05 (sec); dt=    1.545606687e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.37%] [0m[32mncyc      144;  Time    1.099321835e-05 (sec); dt=    1.548988730e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.37%] [0m[32mncyc      145;  Time    1.114811722e-05 (sec); dt=    1.540923606e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.38%] [0m[32mncyc      146;  Time    1.130220958e-05 (sec); dt=    1.524500832e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.38%] [0m[32mncyc      147;  Time    1.145465967e-05 (sec); dt=    1.553499152e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.39%] [0m[32mncyc      148;  Time    1.161000958e-05 (sec); dt=    1.544559679e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.39%] [0m[32mncyc      149;  Time    1.176446555e-05 (sec); dt=    1.507547856e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.40%] [0m[32mncyc      150;  Time    1.191522034e-05 (sec); dt=    1.520427329e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.40%] [0m[32mncyc      151;  Time    1.199124170e-05 (sec); dt=    9.502670806e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.40%] [0m[32mncyc      152;  Time    1.203875506e-05 (sec); dt=    5.939169253e-08 (dt_grow)[0m[32m [0m
+[1m[  0.40%] [0m[32mncyc      153;  Time    1.209814675e-05 (sec); dt=    7.423961567e-08 (dt_grow)[0m[32m [0m
+[1m[  0.41%] [0m[32mncyc      154;  Time    1.217238636e-05 (sec); dt=    9.279951959e-08 (dt_grow)[0m[32m [0m
+[1m[  0.41%] [0m[32mncyc      155;  Time    1.226518588e-05 (sec); dt=    1.159993995e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.41%] [0m[32mncyc      156;  Time    1.232318558e-05 (sec); dt=    7.249962468e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.41%] [0m[32mncyc      157;  Time    1.235943540e-05 (sec); dt=    4.531226542e-08 (dt_grow)[0m[32m [0m
+[1m[  0.41%] [0m[32mncyc      158;  Time    1.240474766e-05 (sec); dt=    5.664033178e-08 (dt_grow)[0m[32m [0m
+[1m[  0.42%] [0m[32mncyc      159;  Time    1.246138799e-05 (sec); dt=    7.080041472e-08 (dt_grow)[0m[32m [0m
+[1m[  0.42%] [0m[32mncyc      160;  Time    1.253218841e-05 (sec); dt=    8.850051840e-08 (dt_grow)[0m[32m [0m
+[1m[  0.42%] [0m[32mncyc      161;  Time    1.262068893e-05 (sec); dt=    1.106256480e-07 (dt_grow)[0m[32m [0m
+[1m[  0.42%] [0m[32mncyc      162;  Time    1.273131457e-05 (sec); dt=    1.382820600e-07 (dt_grow)[0m[32m [0m
+[1m[  0.43%] [0m[32mncyc      163;  Time    1.286959663e-05 (sec); dt=    1.544505306e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.43%] [0m[32mncyc      164;  Time    1.302404717e-05 (sec); dt=    1.519734230e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.44%] [0m[32mncyc      165;  Time    1.317602059e-05 (sec); dt=    1.526949128e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.44%] [0m[32mncyc      166;  Time    1.332871550e-05 (sec); dt=    1.542177147e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.45%] [0m[32mncyc      167;  Time    1.348293322e-05 (sec); dt=    1.529311082e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.45%] [0m[32mncyc      168;  Time    1.363586432e-05 (sec); dt=    1.509785595e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.46%] [0m[32mncyc      169;  Time    1.378684288e-05 (sec); dt=    1.500034118e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.46%] [0m[32mncyc      170;  Time    1.393684630e-05 (sec); dt=    1.508313401e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.47%] [0m[32mncyc      171;  Time    1.408767764e-05 (sec); dt=    1.483737130e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.47%] [0m[32mncyc      172;  Time    1.416186449e-05 (sec); dt=    9.273357060e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.47%] [0m[32mncyc      173;  Time    1.420823128e-05 (sec); dt=    5.795848162e-08 (dt_grow)[0m[32m [0m
+[1m[  0.48%] [0m[32mncyc      174;  Time    1.426618976e-05 (sec); dt=    7.244810203e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.48%] [0m[32mncyc      175;  Time    1.430241381e-05 (sec); dt=    4.528006377e-08 (dt_grow)[0m[32m [0m
+[1m[  0.48%] [0m[32mncyc      176;  Time    1.434769387e-05 (sec); dt=    5.660007971e-08 (dt_grow)[0m[32m [0m
+[1m[  0.48%] [0m[32mncyc      177;  Time    1.440429395e-05 (sec); dt=    7.075009964e-08 (dt_grow)[0m[32m [0m
+[1m[  0.48%] [0m[32mncyc      178;  Time    1.447504405e-05 (sec); dt=    8.843762455e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.48%] [0m[32mncyc      179;  Time    1.451926287e-05 (sec); dt=    5.527351534e-08 (dt_grow)[0m[32m [0m
+[1m[  0.49%] [0m[32mncyc      180;  Time    1.457453638e-05 (sec); dt=    6.909189418e-08 (dt_grow)[0m[32m [0m
+[1m[  0.49%] [0m[32mncyc      181;  Time    1.464362827e-05 (sec); dt=    8.636486772e-08 (dt_grow)[0m[32m [0m
+[1m[  0.49%] [0m[32mncyc      182;  Time    1.472999314e-05 (sec); dt=    1.079560847e-07 (dt_grow)[0m[32m [0m
+[1m[  0.49%] [0m[32mncyc      183;  Time    1.483794923e-05 (sec); dt=    1.349451058e-07 (dt_grow)[0m[32m [0m
+[1m[  0.50%] [0m[32mncyc      184;  Time    1.497289433e-05 (sec); dt=    1.555925651e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.50%] [0m[32mncyc      185;  Time    1.505069062e-05 (sec); dt=    9.724535319e-08 (dt_grow)[0m[32m [0m
+[1m[  0.50%] [0m[32mncyc      186;  Time    1.514793597e-05 (sec); dt=    1.215566915e-07 (dt_grow)[0m[32m [0m
+[1m[  0.51%] [0m[32mncyc      187;  Time    1.526949266e-05 (sec); dt=    1.519458644e-07 (dt_grow)[0m[32m [0m
+[1m[  0.51%] [0m[32mncyc      188;  Time    1.542143852e-05 (sec); dt=    1.523076667e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.52%] [0m[32mncyc      189;  Time    1.557374619e-05 (sec); dt=    1.537390467e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.52%] [0m[32mncyc      190;  Time    1.572748524e-05 (sec); dt=    1.528905491e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.53%] [0m[32mncyc      191;  Time    1.588037579e-05 (sec); dt=    1.503094157e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.53%] [0m[32mncyc      192;  Time    1.603068520e-05 (sec); dt=    1.475910745e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.54%] [0m[32mncyc      193;  Time    1.617827628e-05 (sec); dt=    1.469760252e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.54%] [0m[32mncyc      194;  Time    1.632525230e-05 (sec); dt=    1.466791606e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.55%] [0m[32mncyc      195;  Time    1.639859188e-05 (sec); dt=    9.167447538e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.55%] [0m[32mncyc      196;  Time    1.644442912e-05 (sec); dt=    5.729654711e-08 (dt_grow)[0m[32m [0m
+[1m[  0.55%] [0m[32mncyc      197;  Time    1.650172567e-05 (sec); dt=    7.162068389e-08 (dt_grow)[0m[32m [0m
+[1m[  0.55%] [0m[32mncyc      198;  Time    1.657334635e-05 (sec); dt=    8.952585486e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.55%] [0m[32mncyc      199;  Time    1.661810928e-05 (sec); dt=    5.595365929e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.55%] [0m[32mncyc      200;  Time    1.664608611e-05 (sec); dt=    3.497103706e-08 (dt_grow)[0m[32m [0m
+[1m[  0.56%] [0m[32mncyc      201;  Time    1.668105715e-05 (sec); dt=    4.371379632e-08 (dt_grow)[0m[32m [0m
+[1m[  0.56%] [0m[32mncyc      202;  Time    1.672477094e-05 (sec); dt=    5.464224540e-08 (dt_grow)[0m[32m [0m
+[1m[  0.56%] [0m[32mncyc      203;  Time    1.677941319e-05 (sec); dt=    6.830280675e-08 (dt_grow)[0m[32m [0m
+[1m[  0.56%] [0m[32mncyc      204;  Time    1.684771599e-05 (sec); dt=    8.537850844e-08 (dt_grow)[0m[32m [0m
+[1m[  0.56%] [0m[32mncyc      205;  Time    1.693309450e-05 (sec); dt=    1.067231355e-07 (dt_grow)[0m[32m [0m
+[1m[  0.57%] [0m[32mncyc      206;  Time    1.703981764e-05 (sec); dt=    1.334039194e-07 (dt_grow)[0m[32m [0m
+[1m[  0.57%] [0m[32mncyc      207;  Time    1.717322156e-05 (sec); dt=    1.548955786e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.58%] [0m[32mncyc      208;  Time    1.725066935e-05 (sec); dt=    9.680973661e-08 (dt_grow)[0m[32m [0m
+[1m[  0.58%] [0m[32mncyc      209;  Time    1.734747908e-05 (sec); dt=    1.210121708e-07 (dt_grow)[0m[32m [0m
+[1m[  0.58%] [0m[32mncyc      210;  Time    1.746849125e-05 (sec); dt=    1.512652135e-07 (dt_grow)[0m[32m [0m
+[1m[  0.59%] [0m[32mncyc      211;  Time    1.761975647e-05 (sec); dt=    1.547000464e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.59%] [0m[32mncyc      212;  Time    1.777445651e-05 (sec); dt=    1.528832959e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.60%] [0m[32mncyc      213;  Time    1.792733981e-05 (sec); dt=    1.498969812e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.60%] [0m[32mncyc      214;  Time    1.807723679e-05 (sec); dt=    1.472963999e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.61%] [0m[32mncyc      215;  Time    1.822453319e-05 (sec); dt=    1.458244481e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.61%] [0m[32mncyc      216;  Time    1.837035764e-05 (sec); dt=    1.431472789e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.61%] [0m[32mncyc      217;  Time    1.844193128e-05 (sec); dt=    8.946704934e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.62%] [0m[32mncyc      218;  Time    1.848666480e-05 (sec); dt=    5.591690584e-08 (dt_grow)[0m[32m [0m
+[1m[  0.62%] [0m[32mncyc      219;  Time    1.854258171e-05 (sec); dt=    6.989613230e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.62%] [0m[32mncyc      220;  Time    1.857752978e-05 (sec); dt=    4.368508269e-08 (dt_grow)[0m[32m [0m
+[1m[  0.62%] [0m[32mncyc      221;  Time    1.862121486e-05 (sec); dt=    5.460635336e-08 (dt_grow)[0m[32m [0m
+[1m[  0.62%] [0m[32mncyc      222;  Time    1.867582121e-05 (sec); dt=    6.825794170e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.62%] [0m[32mncyc      223;  Time    1.870995018e-05 (sec); dt=    4.266121356e-08 (dt_grow)[0m[32m [0m
+[1m[  0.63%] [0m[32mncyc      224;  Time    1.875261140e-05 (sec); dt=    5.332651695e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.63%] [0m[32mncyc      225;  Time    1.877927465e-05 (sec); dt=    3.332907309e-08 (dt_grow)[0m[32m [0m
+[1m[  0.63%] [0m[32mncyc      226;  Time    1.881260373e-05 (sec); dt=    4.166134137e-08 (dt_grow)[0m[32m [0m
+[1m[  0.63%] [0m[32mncyc      227;  Time    1.885426507e-05 (sec); dt=    5.207667671e-08 (dt_grow)[0m[32m [0m
+[1m[  0.63%] [0m[32mncyc      228;  Time    1.890634175e-05 (sec); dt=    6.509584589e-08 (dt_grow)[0m[32m [0m
+[1m[  0.63%] [0m[32mncyc      229;  Time    1.897143759e-05 (sec); dt=    8.136980736e-08 (dt_grow)[0m[32m [0m
+[1m[  0.64%] [0m[32mncyc      230;  Time    1.905280740e-05 (sec); dt=    1.017122592e-07 (dt_grow)[0m[32m [0m
+[1m[  0.64%] [0m[32mncyc      231;  Time    1.915451966e-05 (sec); dt=    1.271403240e-07 (dt_grow)[0m[32m [0m
+[1m[  0.64%] [0m[32mncyc      232;  Time    1.928165998e-05 (sec); dt=    1.550656368e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.65%] [0m[32mncyc      233;  Time    1.935919280e-05 (sec); dt=    9.691602298e-08 (dt_grow)[0m[32m [0m
+[1m[  0.65%] [0m[32mncyc      234;  Time    1.945610882e-05 (sec); dt=    1.211450287e-07 (dt_grow)[0m[32m [0m
+[1m[  0.65%] [0m[32mncyc      235;  Time    1.957725385e-05 (sec); dt=    1.514312859e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.66%] [0m[32mncyc      236;  Time    1.965296949e-05 (sec); dt=    9.464455370e-08 (dt_grow)[0m[32m [0m
+[1m[  0.66%] [0m[32mncyc      237;  Time    1.974761405e-05 (sec); dt=    1.183056921e-07 (dt_grow)[0m[32m [0m
+[1m[  0.66%] [0m[32mncyc      238;  Time    1.986591974e-05 (sec); dt=    1.478821151e-07 (dt_grow)[0m[32m [0m
+[35mWriting post file outputs_original/output/post000003_+2.00138e-05.h5 .........[0m
+[35mWriting post file outputs_original/output/post000003_+2.00138e-05.h5 complete[0m
+[35mWriting restart file outputs_original/restart0003.rst .........[0m
+[35mFinished writing restart file outputs_original/restart0003.rst[0m
+[1m[  0.67%] [0m[32mncyc      239;  Time    2.001380186e-05 (sec); dt=    1.530265508e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.67%] [0m[32mncyc      240;  Time    2.016682841e-05 (sec); dt=    1.480734504e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.68%] [0m[32mncyc      241;  Time    2.031490186e-05 (sec); dt=    1.479131771e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.68%] [0m[32mncyc      242;  Time    2.046281503e-05 (sec); dt=    1.437614641e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.68%] [0m[32mncyc      243;  Time    2.053469577e-05 (sec); dt=    8.985091505e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.69%] [0m[32mncyc      244;  Time    2.057962122e-05 (sec); dt=    5.615682191e-08 (dt_grow)[0m[32m [0m
+[1m[  0.69%] [0m[32mncyc      245;  Time    2.063577805e-05 (sec); dt=    7.019602738e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.69%] [0m[32mncyc      246;  Time    2.067087606e-05 (sec); dt=    4.387251711e-08 (dt_grow)[0m[32m [0m
+[1m[  0.69%] [0m[32mncyc      247;  Time    2.071474858e-05 (sec); dt=    5.484064639e-08 (dt_grow)[0m[32m [0m
+[1m[  0.69%] [0m[32mncyc      248;  Time    2.076958922e-05 (sec); dt=    6.855080799e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.69%] [0m[32mncyc      249;  Time    2.080386463e-05 (sec); dt=    4.284425499e-08 (dt_grow)[0m[32m [0m
+[1m[  0.69%] [0m[32mncyc      250;  Time    2.084670888e-05 (sec); dt=    5.355531874e-08 (dt_grow)[0m[32m [0m
+[1m[  0.70%] [0m[32mncyc      251;  Time    2.090026420e-05 (sec); dt=    6.694414843e-08 (dt_grow)[0m[32m [0m
+[1m[  0.70%] [0m[32mncyc      252;  Time    2.096720835e-05 (sec); dt=    8.368018554e-08 (dt_grow)[0m[32m [0m
+[1m[  0.70%] [0m[32mncyc      253;  Time    2.105088853e-05 (sec); dt=    1.046002319e-07 (dt_grow)[0m[32m [0m
+[1m[  0.71%] [0m[32mncyc      254;  Time    2.115548877e-05 (sec); dt=    1.307502899e-07 (dt_grow)[0m[32m [0m
+[1m[  0.71%] [0m[32mncyc      255;  Time    2.128623906e-05 (sec); dt=    1.579303761e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.71%] [0m[32mncyc      256;  Time    2.136520424e-05 (sec); dt=    9.870648507e-08 (dt_grow)[0m[32m [0m
+[1m[  0.72%] [0m[32mncyc      257;  Time    2.146391073e-05 (sec); dt=    1.233831063e-07 (dt_grow)[0m[32m [0m
+[1m[  0.72%] [0m[32mncyc      258;  Time    2.158729384e-05 (sec); dt=    1.542288829e-07 (dt_grow)[0m[32m [0m
+[1m[  0.72%] [0m[32mncyc      259;  Time    2.174152272e-05 (sec); dt=    1.562394598e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.73%] [0m[32mncyc      260;  Time    2.189776218e-05 (sec); dt=    1.544080056e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.73%] [0m[32mncyc      261;  Time    2.197496618e-05 (sec); dt=    9.650500350e-08 (dt_grow)[0m[32m [0m
+[1m[  0.74%] [0m[32mncyc      262;  Time    2.207147118e-05 (sec); dt=    1.206312544e-07 (dt_grow)[0m[32m [0m
+[1m[  0.74%] [0m[32mncyc      263;  Time    2.219210244e-05 (sec); dt=    1.507890680e-07 (dt_grow)[0m[32m [0m
+[1m[  0.74%] [0m[32mncyc      264;  Time    2.234289151e-05 (sec); dt=    1.518609517e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.75%] [0m[32mncyc      265;  Time    2.249475246e-05 (sec); dt=    1.505277448e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.75%] [0m[32mncyc      266;  Time    2.264528020e-05 (sec); dt=    1.461587171e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.76%] [0m[32mncyc      267;  Time    2.271835956e-05 (sec); dt=    9.134919821e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.76%] [0m[32mncyc      268;  Time    2.276403416e-05 (sec); dt=    5.709324888e-08 (dt_grow)[0m[32m [0m
+[1m[  0.76%] [0m[32mncyc      269;  Time    2.282112741e-05 (sec); dt=    7.136656110e-08 (dt_grow)[0m[32m [0m
+[1m[  0.76%] [0m[32mncyc      270;  Time    2.289249397e-05 (sec); dt=    8.920820137e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.76%] [0m[32mncyc      271;  Time    2.293709807e-05 (sec); dt=    5.575512586e-08 (dt_grow)[0m[32m [0m
+[1m[  0.77%] [0m[32mncyc      272;  Time    2.299285320e-05 (sec); dt=    6.969390732e-08 (dt_grow)[0m[32m [0m
+[1m[  0.77%] [0m[32mncyc      273;  Time    2.306254710e-05 (sec); dt=    8.711738415e-08 (dt_grow)[0m[32m [0m
+[1m[  0.77%] [0m[32mncyc      274;  Time    2.314966449e-05 (sec); dt=    1.088967302e-07 (dt_grow)[0m[32m [0m
+[1m[  0.78%] [0m[32mncyc      275;  Time    2.325856122e-05 (sec); dt=    1.361209127e-07 (dt_grow)[0m[32m [0m
+[1m[  0.78%] [0m[32mncyc      276;  Time    2.339468213e-05 (sec); dt=    1.580583510e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.79%] [0m[32mncyc      277;  Time    2.355274048e-05 (sec); dt=    1.541191812e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.79%] [0m[32mncyc      278;  Time    2.370685966e-05 (sec); dt=    1.528799416e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.80%] [0m[32mncyc      279;  Time    2.385973961e-05 (sec); dt=    1.511806181e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.80%] [0m[32mncyc      280;  Time    2.401092022e-05 (sec); dt=    1.495185266e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.81%] [0m[32mncyc      281;  Time    2.416043875e-05 (sec); dt=    1.461193857e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.81%] [0m[32mncyc      282;  Time    2.430655814e-05 (sec); dt=    1.457242405e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.82%] [0m[32mncyc      283;  Time    2.445228238e-05 (sec); dt=    1.431579991e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.82%] [0m[32mncyc      284;  Time    2.459544038e-05 (sec); dt=    1.421600879e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.82%] [0m[32mncyc      285;  Time    2.473760046e-05 (sec); dt=    1.393602165e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.83%] [0m[32mncyc      286;  Time    2.480728057e-05 (sec); dt=    8.710013529e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.83%] [0m[32mncyc      287;  Time    2.485083064e-05 (sec); dt=    5.443758456e-08 (dt_grow)[0m[32m [0m
+[1m[  0.83%] [0m[32mncyc      288;  Time    2.490526822e-05 (sec); dt=    6.804698070e-08 (dt_grow)[0m[32m [0m
+[1m[  0.83%] [0m[32mncyc      289;  Time    2.497331520e-05 (sec); dt=    8.505872587e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.83%] [0m[32mncyc      290;  Time    2.501584457e-05 (sec); dt=    5.316170367e-08 (dt_grow)[0m[32m [0m
+[1m[  0.84%] [0m[32mncyc      291;  Time    2.506900627e-05 (sec); dt=    6.645212959e-08 (dt_grow)[0m[32m [0m
+[1m[  0.84%] [0m[32mncyc      292;  Time    2.513545840e-05 (sec); dt=    8.306516199e-08 (dt_grow)[0m[32m [0m
+[1m[  0.84%] [0m[32mncyc      293;  Time    2.521852356e-05 (sec); dt=    1.038314525e-07 (dt_grow)[0m[32m [0m
+[1m[  0.84%] [0m[32mncyc      294;  Time    2.532235502e-05 (sec); dt=    1.297893156e-07 (dt_grow)[0m[32m [0m
+[1m[  0.85%] [0m[32mncyc      295;  Time    2.545214433e-05 (sec); dt=    1.571995192e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.85%] [0m[32mncyc      296;  Time    2.560934385e-05 (sec); dt=    1.556130753e-07 (dt_cfl)[0m[32m [0m
+[1m[  0.86%] [0m[32mncyc      297;  Time    2.576495693e-05 (sec); dt=    1.553228881e-07 (dt_cfl)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.86%] [0m[32mncyc      298;  Time    2.580378765e-05 (sec); dt=    4.853840253e-08 (dt_grow)[0m[32m [0m
+[1m[  0.86%] [0m[32mncyc      299;  Time    2.585232605e-05 (sec); dt=    6.067300317e-08 (dt_grow)[0m[32m [0m
+[1m[  0.86%] [0m[32mncyc      300;  Time    2.591299905e-05 (sec); dt=    7.584125396e-08 (dt_grow)[0m[32m [0m
+[1m[  0.87%] [0m[32mncyc      301;  Time    2.598884031e-05 (sec); dt=    9.480156745e-08 (dt_grow)[0m[32m [0m
+[1m[  0.87%] [0m[32mncyc      302;  Time    2.608364187e-05 (sec); dt=    1.185019593e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.87%] [0m[32mncyc      303;  Time    2.609845462e-05 (sec); dt=    1.851593114e-08 (dt_grow)[0m[32m [0m
+[1m[  0.87%] [0m[32mncyc      304;  Time    2.611697055e-05 (sec); dt=    2.314491393e-08 (dt_grow)[0m[32m [0m
+[1m[  0.87%] [0m[32mncyc      305;  Time    2.614011546e-05 (sec); dt=    2.893114241e-08 (dt_grow)[0m[32m [0m
+[1m[  0.87%] [0m[32mncyc      306;  Time    2.616904661e-05 (sec); dt=    3.616392801e-08 (dt_grow)[0m[32m [0m
+[1m[  0.87%] [0m[32mncyc      307;  Time    2.620521054e-05 (sec); dt=    4.520491002e-08 (dt_grow)[0m[32m [0m
+[1m[  0.88%] [0m[32mncyc      308;  Time    2.625041545e-05 (sec); dt=    5.650613752e-08 (dt_grow)[0m[32m [0m
+[1m[  0.88%] [0m[32mncyc      309;  Time    2.630692158e-05 (sec); dt=    7.063267190e-08 (dt_grow)[0m[32m [0m
+[1m[  0.88%] [0m[32mncyc      310;  Time    2.637755425e-05 (sec); dt=    8.829083987e-08 (dt_grow)[0m[32m [0m
+[1m[  0.88%] [0m[32mncyc      311;  Time    2.646584509e-05 (sec); dt=    1.103635498e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.88%] [0m[32mncyc      312;  Time    2.647964054e-05 (sec); dt=    1.724430466e-08 (dt_grow)[0m[32m [0m
+[1m[  0.88%] [0m[32mncyc      313;  Time    2.649688484e-05 (sec); dt=    2.155538083e-08 (dt_grow)[0m[32m [0m
+[1m[  0.88%] [0m[32mncyc      314;  Time    2.651844022e-05 (sec); dt=    2.694422604e-08 (dt_grow)[0m[32m [0m
+[1m[  0.88%] [0m[32mncyc      315;  Time    2.654538445e-05 (sec); dt=    3.368028254e-08 (dt_grow)[0m[32m [0m
+[1m[  0.89%] [0m[32mncyc      316;  Time    2.657906473e-05 (sec); dt=    4.210035318e-08 (dt_grow)[0m[32m [0m
+[1m[  0.89%] [0m[32mncyc      317;  Time    2.662116509e-05 (sec); dt=    5.262544148e-08 (dt_grow)[0m[32m [0m
+[1m[  0.89%] [0m[32mncyc      318;  Time    2.667379053e-05 (sec); dt=    6.578180185e-08 (dt_grow)[0m[32m [0m
+[1m[  0.89%] [0m[32mncyc      319;  Time    2.673957233e-05 (sec); dt=    8.222725231e-08 (dt_grow)[0m[32m [0m
+[1m[  0.89%] [0m[32mncyc      320;  Time    2.682179958e-05 (sec); dt=    1.027840654e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.89%] [0m[32mncyc      321;  Time    2.683464759e-05 (sec); dt=    1.606001022e-08 (dt_grow)[0m[32m [0m
+[1m[  0.90%] [0m[32mncyc      322;  Time    2.685070760e-05 (sec); dt=    2.007501277e-08 (dt_grow)[0m[32m [0m
+[1m[  0.90%] [0m[32mncyc      323;  Time    2.687078261e-05 (sec); dt=    2.509376596e-08 (dt_grow)[0m[32m [0m
+[1m[  0.90%] [0m[32mncyc      324;  Time    2.689587638e-05 (sec); dt=    3.136720745e-08 (dt_grow)[0m[32m [0m
+[1m[  0.90%] [0m[32mncyc      325;  Time    2.692724359e-05 (sec); dt=    3.920900932e-08 (dt_grow)[0m[32m [0m
+[1m[  0.90%] [0m[32mncyc      326;  Time    2.696645259e-05 (sec); dt=    4.901126165e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.90%] [0m[32mncyc      327;  Time    2.699095823e-05 (sec); dt=    3.063203853e-08 (dt_grow)[0m[32m [0m
+[1m[  0.90%] [0m[32mncyc      328;  Time    2.702159026e-05 (sec); dt=    3.829004816e-08 (dt_grow)[0m[32m [0m
+[1m[  0.90%] [0m[32mncyc      329;  Time    2.705988031e-05 (sec); dt=    4.786256020e-08 (dt_grow)[0m[32m [0m
+[1m[  0.90%] [0m[32mncyc      330;  Time    2.710774287e-05 (sec); dt=    5.982820025e-08 (dt_grow)[0m[32m [0m
+[1m[  0.91%] [0m[32mncyc      331;  Time    2.716757107e-05 (sec); dt=    7.478525031e-08 (dt_grow)[0m[32m [0m
+[1m[  0.91%] [0m[32mncyc      332;  Time    2.724235632e-05 (sec); dt=    9.348156289e-08 (dt_grow)[0m[32m [0m
+[1m[  0.91%] [0m[32mncyc      333;  Time    2.733583789e-05 (sec); dt=    1.168519536e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.91%] [0m[32mncyc      334;  Time    2.735044438e-05 (sec); dt=    1.825811775e-08 (dt_grow)[0m[32m [0m
+[1m[  0.91%] [0m[32mncyc      335;  Time    2.736870250e-05 (sec); dt=    2.282264719e-08 (dt_grow)[0m[32m [0m
+[1m[  0.91%] [0m[32mncyc      336;  Time    2.739152515e-05 (sec); dt=    2.852830899e-08 (dt_grow)[0m[32m [0m
+[1m[  0.91%] [0m[32mncyc      337;  Time    2.742005345e-05 (sec); dt=    3.566038624e-08 (dt_grow)[0m[32m [0m
+[1m[  0.92%] [0m[32mncyc      338;  Time    2.745571384e-05 (sec); dt=    4.457548279e-08 (dt_grow)[0m[32m [0m
+[1m[  0.92%] [0m[32mncyc      339;  Time    2.750028932e-05 (sec); dt=    5.571935349e-08 (dt_grow)[0m[32m [0m
+[1m[  0.92%] [0m[32mncyc      340;  Time    2.755600868e-05 (sec); dt=    6.964919187e-08 (dt_grow)[0m[32m [0m
+[1m[  0.92%] [0m[32mncyc      341;  Time    2.762565787e-05 (sec); dt=    8.706148983e-08 (dt_grow)[0m[32m [0m
+[1m[  0.92%] [0m[32mncyc      342;  Time    2.771271936e-05 (sec); dt=    1.088268623e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.92%] [0m[32mncyc      343;  Time    2.772632272e-05 (sec); dt=    1.700419723e-08 (dt_grow)[0m[32m [0m
+[1m[  0.92%] [0m[32mncyc      344;  Time    2.774332691e-05 (sec); dt=    2.125524654e-08 (dt_grow)[0m[32m [0m
+[1m[  0.93%] [0m[32mncyc      345;  Time    2.776458216e-05 (sec); dt=    2.656905818e-08 (dt_grow)[0m[32m [0m
+[1m[  0.93%] [0m[32mncyc      346;  Time    2.779115122e-05 (sec); dt=    3.321132272e-08 (dt_grow)[0m[32m [0m
+[1m[  0.93%] [0m[32mncyc      347;  Time    2.782436254e-05 (sec); dt=    4.151415340e-08 (dt_grow)[0m[32m [0m
+[1m[  0.93%] [0m[32mncyc      348;  Time    2.786587669e-05 (sec); dt=    5.189269175e-08 (dt_grow)[0m[32m [0m
+[1m[  0.93%] [0m[32mncyc      349;  Time    2.791776939e-05 (sec); dt=    6.486586469e-08 (dt_grow)[0m[32m [0m
+[1m[  0.93%] [0m[32mncyc      350;  Time    2.798263525e-05 (sec); dt=    8.108233086e-08 (dt_grow)[0m[32m [0m
+[1m[  0.94%] [0m[32mncyc      351;  Time    2.806371758e-05 (sec); dt=    1.013529136e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.94%] [0m[32mncyc      352;  Time    2.807638670e-05 (sec); dt=    1.583639275e-08 (dt_grow)[0m[32m [0m
+[1m[  0.94%] [0m[32mncyc      353;  Time    2.809222309e-05 (sec); dt=    1.979549093e-08 (dt_grow)[0m[32m [0m
+[1m[  0.94%] [0m[32mncyc      354;  Time    2.811201858e-05 (sec); dt=    2.474436367e-08 (dt_grow)[0m[32m [0m
+[1m[  0.94%] [0m[32mncyc      355;  Time    2.813676294e-05 (sec); dt=    3.093045458e-08 (dt_grow)[0m[32m [0m
+[1m[  0.94%] [0m[32mncyc      356;  Time    2.816769340e-05 (sec); dt=    3.866306823e-08 (dt_grow)[0m[32m [0m
+[1m[  0.94%] [0m[32mncyc      357;  Time    2.820635647e-05 (sec); dt=    4.832883529e-08 (dt_grow)[0m[32m [0m
+[1m[  0.94%] [0m[32mncyc      358;  Time    2.825468530e-05 (sec); dt=    6.041104411e-08 (dt_grow)[0m[32m [0m
+[1m[  0.94%] [0m[32mncyc      359;  Time    2.831509635e-05 (sec); dt=    7.551380513e-08 (dt_grow)[0m[32m [0m
+[1m[  0.95%] [0m[32mncyc      360;  Time    2.839061015e-05 (sec); dt=    9.439225642e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.95%] [0m[32mncyc      361;  Time    2.840240918e-05 (sec); dt=    1.474879007e-08 (dt_grow)[0m[32m [0m
+[1m[  0.95%] [0m[32mncyc      362;  Time    2.841715797e-05 (sec); dt=    1.843598758e-08 (dt_grow)[0m[32m [0m
+[1m[  0.95%] [0m[32mncyc      363;  Time    2.843559396e-05 (sec); dt=    2.304498448e-08 (dt_grow)[0m[32m [0m
+[1m[  0.95%] [0m[32mncyc      364;  Time    2.845863894e-05 (sec); dt=    2.880623060e-08 (dt_grow)[0m[32m [0m
+[1m[  0.95%] [0m[32mncyc      365;  Time    2.848744518e-05 (sec); dt=    3.600778824e-08 (dt_grow)[0m[32m [0m
+[1m[  0.95%] [0m[32mncyc      366;  Time    2.852345296e-05 (sec); dt=    4.500973531e-08 (dt_grow)[0m[32m [0m
+[1m[  0.95%] [0m[32mncyc      367;  Time    2.856846270e-05 (sec); dt=    5.626216913e-08 (dt_grow)[0m[32m [0m
+[1m[  0.95%] [0m[32mncyc      368;  Time    2.862472487e-05 (sec); dt=    7.032771142e-08 (dt_grow)[0m[32m [0m
+[1m[  0.96%] [0m[32mncyc      369;  Time    2.869505258e-05 (sec); dt=    8.790963927e-08 (dt_grow)[0m[32m [0m
+[1m[  0.96%] [0m[32mncyc      370;  Time    2.878296222e-05 (sec); dt=    1.098870491e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.96%] [0m[32mncyc      371;  Time    2.879669810e-05 (sec); dt=    1.716985142e-08 (dt_grow)[0m[32m [0m
+[1m[  0.96%] [0m[32mncyc      372;  Time    2.881386795e-05 (sec); dt=    2.146231427e-08 (dt_grow)[0m[32m [0m
+[1m[  0.96%] [0m[32mncyc      373;  Time    2.883533027e-05 (sec); dt=    2.682789284e-08 (dt_grow)[0m[32m [0m
+[1m[  0.96%] [0m[32mncyc      374;  Time    2.886215816e-05 (sec); dt=    3.353486605e-08 (dt_grow)[0m[32m [0m
+[1m[  0.96%] [0m[32mncyc      375;  Time    2.889569302e-05 (sec); dt=    4.191858257e-08 (dt_grow)[0m[32m [0m
+[1m[  0.96%] [0m[32mncyc      376;  Time    2.893761161e-05 (sec); dt=    5.239822821e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.97%] [0m[32mncyc      377;  Time    2.896381072e-05 (sec); dt=    3.274889263e-08 (dt_grow)[0m[32m [0m
+[1m[  0.97%] [0m[32mncyc      378;  Time    2.899655961e-05 (sec); dt=    4.093611579e-08 (dt_grow)[0m[32m [0m
+[1m[  0.97%] [0m[32mncyc      379;  Time    2.903749573e-05 (sec); dt=    5.117014474e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.97%] [0m[32mncyc      380;  Time    2.906308080e-05 (sec); dt=    3.198134046e-08 (dt_grow)[0m[32m [0m
+[1m[  0.97%] [0m[32mncyc      381;  Time    2.909506214e-05 (sec); dt=    3.997667558e-08 (dt_grow)[0m[32m [0m
+[1m[  0.97%] [0m[32mncyc      382;  Time    2.913503882e-05 (sec); dt=    4.997084447e-08 (dt_grow)[0m[32m [0m
+[1m[  0.97%] [0m[32mncyc      383;  Time    2.918500966e-05 (sec); dt=    6.246355559e-08 (dt_grow)[0m[32m [0m
+[1m[  0.97%] [0m[32mncyc      384;  Time    2.924747322e-05 (sec); dt=    7.807944448e-08 (dt_grow)[0m[32m [0m
+[1m[  0.98%] [0m[32mncyc      385;  Time    2.932555266e-05 (sec); dt=    9.759930560e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.98%] [0m[32mncyc      386;  Time    2.933775258e-05 (sec); dt=    1.524989150e-08 (dt_grow)[0m[32m [0m
+[1m[  0.98%] [0m[32mncyc      387;  Time    2.935300247e-05 (sec); dt=    1.906236438e-08 (dt_grow)[0m[32m [0m
+[1m[  0.98%] [0m[32mncyc      388;  Time    2.937206483e-05 (sec); dt=    2.382795547e-08 (dt_grow)[0m[32m [0m
+[1m[  0.98%] [0m[32mncyc      389;  Time    2.939589279e-05 (sec); dt=    2.978494434e-08 (dt_grow)[0m[32m [0m
+[1m[  0.98%] [0m[32mncyc      390;  Time    2.942567773e-05 (sec); dt=    3.723118042e-08 (dt_grow)[0m[32m [0m
+[1m[  0.98%] [0m[32mncyc      391;  Time    2.946290891e-05 (sec); dt=    4.653897553e-08 (dt_grow)[0m[32m [0m
+[1m[  0.98%] [0m[32mncyc      392;  Time    2.950944789e-05 (sec); dt=    5.817371941e-08 (dt_grow)[0m[32m [0m
+[1m[  0.99%] [0m[32mncyc      393;  Time    2.956762161e-05 (sec); dt=    7.271714926e-08 (dt_grow)[0m[32m [0m
+[1m[  0.99%] [0m[32mncyc      394;  Time    2.964033876e-05 (sec); dt=    9.089643658e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  0.99%] [0m[32mncyc      395;  Time    2.965170081e-05 (sec); dt=    1.420256821e-08 (dt_grow)[0m[32m [0m
+[1m[  0.99%] [0m[32mncyc      396;  Time    2.966590338e-05 (sec); dt=    1.775321027e-08 (dt_grow)[0m[32m [0m
+[1m[  0.99%] [0m[32mncyc      397;  Time    2.968365659e-05 (sec); dt=    2.219151284e-08 (dt_grow)[0m[32m [0m
+[1m[  0.99%] [0m[32mncyc      398;  Time    2.970584810e-05 (sec); dt=    2.773939104e-08 (dt_grow)[0m[32m [0m
+[1m[  0.99%] [0m[32mncyc      399;  Time    2.973358749e-05 (sec); dt=    3.467423881e-08 (dt_grow)[0m[32m [0m
+[1m[  0.99%] [0m[32mncyc      400;  Time    2.976826173e-05 (sec); dt=    4.334279851e-08 (dt_grow)[0m[32m [0m
+[1m[  0.99%] [0m[32mncyc      401;  Time    2.981160453e-05 (sec); dt=    5.417849813e-08 (dt_grow)[0m[32m [0m
+[1m[  1.00%] [0m[32mncyc      402;  Time    2.986578303e-05 (sec); dt=    6.772312267e-08 (dt_grow)[0m[32m [0m
+[1m[  1.00%] [0m[32mncyc      403;  Time    2.993350615e-05 (sec); dt=    8.465390333e-08 (dt_grow)[0m[32m [0m
+[35mWriting post file outputs_original/output/post000004_+3.00182e-05.h5 .........[0m
+[35mWriting post file outputs_original/output/post000004_+3.00182e-05.h5 complete[0m
+[35mWriting restart file outputs_original/restart0004.rst .........[0m
+[35mFinished writing restart file outputs_original/restart0004.rst[0m
+[1m[  1.00%] [0m[32mncyc      404;  Time    3.001816005e-05 (sec); dt=    1.058173792e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.00%] [0m[32mncyc      405;  Time    3.003138723e-05 (sec); dt=    1.653396550e-08 (dt_grow)[0m[32m [0m
+[1m[  1.00%] [0m[32mncyc      406;  Time    3.004792119e-05 (sec); dt=    2.066745687e-08 (dt_grow)[0m[32m [0m
+[1m[  1.00%] [0m[32mncyc      407;  Time    3.006858865e-05 (sec); dt=    2.583432109e-08 (dt_grow)[0m[32m [0m
+[1m[  1.00%] [0m[32mncyc      408;  Time    3.009442297e-05 (sec); dt=    3.229290136e-08 (dt_grow)[0m[32m [0m
+[1m[  1.00%] [0m[32mncyc      409;  Time    3.012671587e-05 (sec); dt=    4.036612670e-08 (dt_grow)[0m[32m [0m
+[1m[  1.01%] [0m[32mncyc      410;  Time    3.016708200e-05 (sec); dt=    5.045765837e-08 (dt_grow)[0m[32m [0m
+[1m[  1.01%] [0m[32mncyc      411;  Time    3.021753966e-05 (sec); dt=    6.307207296e-08 (dt_grow)[0m[32m [0m
+[1m[  1.01%] [0m[32mncyc      412;  Time    3.028061173e-05 (sec); dt=    7.884009120e-08 (dt_grow)[0m[32m [0m
+[1m[  1.01%] [0m[32mncyc      413;  Time    3.035945182e-05 (sec); dt=    9.855011401e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.01%] [0m[32mncyc      414;  Time    3.037177058e-05 (sec); dt=    1.539845531e-08 (dt_grow)[0m[32m [0m
+[1m[  1.01%] [0m[32mncyc      415;  Time    3.038716904e-05 (sec); dt=    1.924806914e-08 (dt_grow)[0m[32m [0m
+[1m[  1.01%] [0m[32mncyc      416;  Time    3.040641711e-05 (sec); dt=    2.406008643e-08 (dt_grow)[0m[32m [0m
+[1m[  1.01%] [0m[32mncyc      417;  Time    3.043047720e-05 (sec); dt=    3.007510803e-08 (dt_grow)[0m[32m [0m
+[1m[  1.02%] [0m[32mncyc      418;  Time    3.046055230e-05 (sec); dt=    3.759388504e-08 (dt_grow)[0m[32m [0m
+[1m[  1.02%] [0m[32mncyc      419;  Time    3.049814619e-05 (sec); dt=    4.699235630e-08 (dt_grow)[0m[32m [0m
+[1m[  1.02%] [0m[32mncyc      420;  Time    3.054513855e-05 (sec); dt=    5.874044538e-08 (dt_grow)[0m[32m [0m
+[1m[  1.02%] [0m[32mncyc      421;  Time    3.060387899e-05 (sec); dt=    7.342555672e-08 (dt_grow)[0m[32m [0m
+[1m[  1.02%] [0m[32mncyc      422;  Time    3.067730455e-05 (sec); dt=    9.178194590e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.02%] [0m[32mncyc      423;  Time    3.068877729e-05 (sec); dt=    1.434092905e-08 (dt_grow)[0m[32m [0m
+[1m[  1.02%] [0m[32mncyc      424;  Time    3.070311822e-05 (sec); dt=    1.792616131e-08 (dt_grow)[0m[32m [0m
+[1m[  1.02%] [0m[32mncyc      425;  Time    3.072104438e-05 (sec); dt=    2.240770164e-08 (dt_grow)[0m[32m [0m
+[1m[  1.02%] [0m[32mncyc      426;  Time    3.074345208e-05 (sec); dt=    2.800962705e-08 (dt_grow)[0m[32m [0m
+[1m[  1.03%] [0m[32mncyc      427;  Time    3.077146171e-05 (sec); dt=    3.501203381e-08 (dt_grow)[0m[32m [0m
+[1m[  1.03%] [0m[32mncyc      428;  Time    3.080647374e-05 (sec); dt=    4.376504226e-08 (dt_grow)[0m[32m [0m
+[1m[  1.03%] [0m[32mncyc      429;  Time    3.085023879e-05 (sec); dt=    5.470630282e-08 (dt_grow)[0m[32m [0m
+[1m[  1.03%] [0m[32mncyc      430;  Time    3.090494509e-05 (sec); dt=    6.838287853e-08 (dt_grow)[0m[32m [0m
+[1m[  1.03%] [0m[32mncyc      431;  Time    3.097332797e-05 (sec); dt=    8.547859816e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.03%] [0m[32mncyc      432;  Time    3.099469762e-05 (sec); dt=    2.671206193e-08 (dt_grow)[0m[32m [0m
+[1m[  1.03%] [0m[32mncyc      433;  Time    3.102140968e-05 (sec); dt=    3.339007741e-08 (dt_grow)[0m[32m [0m
+[1m[  1.04%] [0m[32mncyc      434;  Time    3.105479976e-05 (sec); dt=    4.173759676e-08 (dt_grow)[0m[32m [0m
+[1m[  1.04%] [0m[32mncyc      435;  Time    3.109653735e-05 (sec); dt=    5.217199595e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.04%] [0m[32mncyc      436;  Time    3.112262335e-05 (sec); dt=    3.260749747e-08 (dt_grow)[0m[32m [0m
+[1m[  1.04%] [0m[32mncyc      437;  Time    3.115523085e-05 (sec); dt=    4.075937184e-08 (dt_grow)[0m[32m [0m
+[1m[  1.04%] [0m[32mncyc      438;  Time    3.119599022e-05 (sec); dt=    5.094921479e-08 (dt_grow)[0m[32m [0m
+[1m[  1.04%] [0m[32mncyc      439;  Time    3.124693943e-05 (sec); dt=    6.368651849e-08 (dt_grow)[0m[32m [0m
+[1m[  1.04%] [0m[32mncyc      440;  Time    3.131062595e-05 (sec); dt=    7.960814812e-08 (dt_grow)[0m[32m [0m
+[1m[  1.05%] [0m[32mncyc      441;  Time    3.139023410e-05 (sec); dt=    9.951018514e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.05%] [0m[32mncyc      442;  Time    3.140267287e-05 (sec); dt=    1.554846643e-08 (dt_grow)[0m[32m [0m
+[1m[  1.05%] [0m[32mncyc      443;  Time    3.141822134e-05 (sec); dt=    1.943558304e-08 (dt_grow)[0m[32m [0m
+[1m[  1.05%] [0m[32mncyc      444;  Time    3.143765692e-05 (sec); dt=    2.429447880e-08 (dt_grow)[0m[32m [0m
+[1m[  1.05%] [0m[32mncyc      445;  Time    3.146195140e-05 (sec); dt=    3.036809849e-08 (dt_grow)[0m[32m [0m
+[1m[  1.05%] [0m[32mncyc      446;  Time    3.149231950e-05 (sec); dt=    3.796012312e-08 (dt_grow)[0m[32m [0m
+[1m[  1.05%] [0m[32mncyc      447;  Time    3.153027962e-05 (sec); dt=    4.745015390e-08 (dt_grow)[0m[32m [0m
+[1m[  1.05%] [0m[32mncyc      448;  Time    3.157772978e-05 (sec); dt=    5.931269237e-08 (dt_grow)[0m[32m [0m
+[1m[  1.05%] [0m[32mncyc      449;  Time    3.163704247e-05 (sec); dt=    7.414086546e-08 (dt_grow)[0m[32m [0m
+[1m[  1.06%] [0m[32mncyc      450;  Time    3.171118334e-05 (sec); dt=    9.267608183e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.06%] [0m[32mncyc      451;  Time    3.172276785e-05 (sec); dt=    1.448063779e-08 (dt_grow)[0m[32m [0m
+[1m[  1.06%] [0m[32mncyc      452;  Time    3.173724848e-05 (sec); dt=    1.810079723e-08 (dt_grow)[0m[32m [0m
+[1m[  1.06%] [0m[32mncyc      453;  Time    3.175534928e-05 (sec); dt=    2.262599654e-08 (dt_grow)[0m[32m [0m
+[1m[  1.06%] [0m[32mncyc      454;  Time    3.177797528e-05 (sec); dt=    2.828249568e-08 (dt_grow)[0m[32m [0m
+[1m[  1.06%] [0m[32mncyc      455;  Time    3.180625777e-05 (sec); dt=    3.535311959e-08 (dt_grow)[0m[32m [0m
+[1m[  1.06%] [0m[32mncyc      456;  Time    3.184161089e-05 (sec); dt=    4.419139949e-08 (dt_grow)[0m[32m [0m
+[1m[  1.06%] [0m[32mncyc      457;  Time    3.188580229e-05 (sec); dt=    5.523924937e-08 (dt_grow)[0m[32m [0m
+[1m[  1.06%] [0m[32mncyc      458;  Time    3.194104154e-05 (sec); dt=    6.904906171e-08 (dt_grow)[0m[32m [0m
+[1m[  1.07%] [0m[32mncyc      459;  Time    3.201009060e-05 (sec); dt=    8.631132713e-08 (dt_grow)[0m[32m [0m
+[1m[  1.07%] [0m[32mncyc      460;  Time    3.209640193e-05 (sec); dt=    1.078891589e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.07%] [0m[32mncyc      461;  Time    3.210988808e-05 (sec); dt=    1.685768108e-08 (dt_grow)[0m[32m [0m
+[1m[  1.07%] [0m[32mncyc      462;  Time    3.212674576e-05 (sec); dt=    2.107210135e-08 (dt_grow)[0m[32m [0m
+[1m[  1.07%] [0m[32mncyc      463;  Time    3.214781786e-05 (sec); dt=    2.634012669e-08 (dt_grow)[0m[32m [0m
+[1m[  1.07%] [0m[32mncyc      464;  Time    3.217415798e-05 (sec); dt=    3.292515836e-08 (dt_grow)[0m[32m [0m
+[1m[  1.07%] [0m[32mncyc      465;  Time    3.220708314e-05 (sec); dt=    4.115644795e-08 (dt_grow)[0m[32m [0m
+[1m[  1.07%] [0m[32mncyc      466;  Time    3.224823959e-05 (sec); dt=    5.144555994e-08 (dt_grow)[0m[32m [0m
+[1m[  1.08%] [0m[32mncyc      467;  Time    3.229968515e-05 (sec); dt=    6.430694992e-08 (dt_grow)[0m[32m [0m
+[1m[  1.08%] [0m[32mncyc      468;  Time    3.236399210e-05 (sec); dt=    8.038368741e-08 (dt_grow)[0m[32m [0m
+[1m[  1.08%] [0m[32mncyc      469;  Time    3.244437579e-05 (sec); dt=    1.004796093e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.08%] [0m[32mncyc      470;  Time    3.245693574e-05 (sec); dt=    1.569993895e-08 (dt_grow)[0m[32m [0m
+[1m[  1.08%] [0m[32mncyc      471;  Time    3.247263568e-05 (sec); dt=    1.962492368e-08 (dt_grow)[0m[32m [0m
+[1m[  1.08%] [0m[32mncyc      472;  Time    3.249226060e-05 (sec); dt=    2.453115460e-08 (dt_grow)[0m[32m [0m
+[1m[  1.08%] [0m[32mncyc      473;  Time    3.251679176e-05 (sec); dt=    3.066394325e-08 (dt_grow)[0m[32m [0m
+[1m[  1.08%] [0m[32mncyc      474;  Time    3.254745570e-05 (sec); dt=    3.832992907e-08 (dt_grow)[0m[32m [0m
+[1m[  1.09%] [0m[32mncyc      475;  Time    3.258578563e-05 (sec); dt=    4.791241134e-08 (dt_grow)[0m[32m [0m
+[1m[  1.09%] [0m[32mncyc      476;  Time    3.263369804e-05 (sec); dt=    5.989051417e-08 (dt_grow)[0m[32m [0m
+[1m[  1.09%] [0m[32mncyc      477;  Time    3.269358855e-05 (sec); dt=    7.486314271e-08 (dt_grow)[0m[32m [0m
+[1m[  1.09%] [0m[32mncyc      478;  Time    3.276845170e-05 (sec); dt=    9.357892839e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.09%] [0m[32mncyc      479;  Time    3.278014906e-05 (sec); dt=    1.462170756e-08 (dt_grow)[0m[32m [0m
+[1m[  1.09%] [0m[32mncyc      480;  Time    3.279477077e-05 (sec); dt=    1.827713445e-08 (dt_grow)[0m[32m [0m
+[1m[  1.09%] [0m[32mncyc      481;  Time    3.281304791e-05 (sec); dt=    2.284641806e-08 (dt_grow)[0m[32m [0m
+[1m[  1.09%] [0m[32mncyc      482;  Time    3.283589432e-05 (sec); dt=    2.855802258e-08 (dt_grow)[0m[32m [0m
+[1m[  1.10%] [0m[32mncyc      483;  Time    3.286445235e-05 (sec); dt=    3.569752822e-08 (dt_grow)[0m[32m [0m
+[1m[  1.10%] [0m[32mncyc      484;  Time    3.290014987e-05 (sec); dt=    4.462191028e-08 (dt_grow)[0m[32m [0m
+[1m[  1.10%] [0m[32mncyc      485;  Time    3.294477178e-05 (sec); dt=    5.577738785e-08 (dt_grow)[0m[32m [0m
+[1m[  1.10%] [0m[32mncyc      486;  Time    3.300054917e-05 (sec); dt=    6.972173481e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.10%] [0m[32mncyc      487;  Time    3.303541004e-05 (sec); dt=    4.357608426e-08 (dt_grow)[0m[32m [0m
+[1m[  1.10%] [0m[32mncyc      488;  Time    3.307898612e-05 (sec); dt=    5.447010532e-08 (dt_grow)[0m[32m [0m
+[1m[  1.10%] [0m[32mncyc      489;  Time    3.313345623e-05 (sec); dt=    6.808763165e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.11%] [0m[32mncyc      490;  Time    3.316750005e-05 (sec); dt=    4.255476978e-08 (dt_grow)[0m[32m [0m
+[1m[  1.11%] [0m[32mncyc      491;  Time    3.321005482e-05 (sec); dt=    5.319346223e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.11%] [0m[32mncyc      492;  Time    3.323665155e-05 (sec); dt=    3.324591389e-08 (dt_grow)[0m[32m [0m
+[1m[  1.11%] [0m[32mncyc      493;  Time    3.326989746e-05 (sec); dt=    4.155739237e-08 (dt_grow)[0m[32m [0m
+[1m[  1.11%] [0m[32mncyc      494;  Time    3.331145485e-05 (sec); dt=    5.194674046e-08 (dt_grow)[0m[32m [0m
+[1m[  1.11%] [0m[32mncyc      495;  Time    3.336340159e-05 (sec); dt=    6.493342557e-08 (dt_grow)[0m[32m [0m
+[1m[  1.11%] [0m[32mncyc      496;  Time    3.342833502e-05 (sec); dt=    8.116678197e-08 (dt_grow)[0m[32m [0m
+[1m[  1.12%] [0m[32mncyc      497;  Time    3.350950180e-05 (sec); dt=    1.014584775e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.12%] [0m[32mncyc      498;  Time    3.352218411e-05 (sec); dt=    1.585288710e-08 (dt_grow)[0m[32m [0m
+[1m[  1.12%] [0m[32mncyc      499;  Time    3.353803700e-05 (sec); dt=    1.981610888e-08 (dt_grow)[0m[32m [0m
+[1m[  1.12%] [0m[32mncyc      500;  Time    3.355785311e-05 (sec); dt=    2.477013610e-08 (dt_grow)[0m[32m [0m
+[1m[  1.12%] [0m[32mncyc      501;  Time    3.358262324e-05 (sec); dt=    3.096267012e-08 (dt_grow)[0m[32m [0m
+[1m[  1.12%] [0m[32mncyc      502;  Time    3.361358591e-05 (sec); dt=    3.870333765e-08 (dt_grow)[0m[32m [0m
+[1m[  1.12%] [0m[32mncyc      503;  Time    3.365228925e-05 (sec); dt=    4.837917207e-08 (dt_grow)[0m[32m [0m
+[1m[  1.12%] [0m[32mncyc      504;  Time    3.370066842e-05 (sec); dt=    6.047396508e-08 (dt_grow)[0m[32m [0m
+[1m[  1.13%] [0m[32mncyc      505;  Time    3.376114239e-05 (sec); dt=    7.559245635e-08 (dt_grow)[0m[32m [0m
+[1m[  1.13%] [0m[32mncyc      506;  Time    3.383673484e-05 (sec); dt=    9.449057044e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.13%] [0m[32mncyc      507;  Time    3.384854616e-05 (sec); dt=    1.476415163e-08 (dt_grow)[0m[32m [0m
+[1m[  1.13%] [0m[32mncyc      508;  Time    3.386331032e-05 (sec); dt=    1.845518954e-08 (dt_grow)[0m[32m [0m
+[1m[  1.13%] [0m[32mncyc      509;  Time    3.388176551e-05 (sec); dt=    2.306898692e-08 (dt_grow)[0m[32m [0m
+[1m[  1.13%] [0m[32mncyc      510;  Time    3.390483449e-05 (sec); dt=    2.883623366e-08 (dt_grow)[0m[32m [0m
+[1m[  1.13%] [0m[32mncyc      511;  Time    3.393367073e-05 (sec); dt=    3.604529207e-08 (dt_grow)[0m[32m [0m
+[1m[  1.13%] [0m[32mncyc      512;  Time    3.396971602e-05 (sec); dt=    4.505661509e-08 (dt_grow)[0m[32m [0m
+[1m[  1.13%] [0m[32mncyc      513;  Time    3.401477263e-05 (sec); dt=    5.632076886e-08 (dt_grow)[0m[32m [0m
+[1m[  1.14%] [0m[32mncyc      514;  Time    3.407109340e-05 (sec); dt=    7.040096107e-08 (dt_grow)[0m[32m [0m
+[1m[  1.14%] [0m[32mncyc      515;  Time    3.414149436e-05 (sec); dt=    8.800120134e-08 (dt_grow)[0m[32m [0m
+[1m[  1.14%] [0m[32mncyc      516;  Time    3.422949556e-05 (sec); dt=    1.100015017e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.14%] [0m[32mncyc      517;  Time    3.424324575e-05 (sec); dt=    1.718773464e-08 (dt_grow)[0m[32m [0m
+[1m[  1.14%] [0m[32mncyc      518;  Time    3.426043349e-05 (sec); dt=    2.148466830e-08 (dt_grow)[0m[32m [0m
+[1m[  1.14%] [0m[32mncyc      519;  Time    3.428191816e-05 (sec); dt=    2.685583537e-08 (dt_grow)[0m[32m [0m
+[1m[  1.14%] [0m[32mncyc      520;  Time    3.430877399e-05 (sec); dt=    3.356979421e-08 (dt_grow)[0m[32m [0m
+[1m[  1.14%] [0m[32mncyc      521;  Time    3.434234379e-05 (sec); dt=    4.196224277e-08 (dt_grow)[0m[32m [0m
+[1m[  1.15%] [0m[32mncyc      522;  Time    3.438430603e-05 (sec); dt=    5.245280346e-08 (dt_grow)[0m[32m [0m
+[1m[  1.15%] [0m[32mncyc      523;  Time    3.443675883e-05 (sec); dt=    6.556600432e-08 (dt_grow)[0m[32m [0m
+[1m[  1.15%] [0m[32mncyc      524;  Time    3.450232484e-05 (sec); dt=    8.195750540e-08 (dt_grow)[0m[32m [0m
+[1m[  1.15%] [0m[32mncyc      525;  Time    3.458428234e-05 (sec); dt=    1.024468818e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.15%] [0m[32mncyc      526;  Time    3.459708820e-05 (sec); dt=    1.600732527e-08 (dt_grow)[0m[32m [0m
+[1m[  1.15%] [0m[32mncyc      527;  Time    3.461309553e-05 (sec); dt=    2.000915659e-08 (dt_grow)[0m[32m [0m
+[1m[  1.15%] [0m[32mncyc      528;  Time    3.463310468e-05 (sec); dt=    2.501144574e-08 (dt_grow)[0m[32m [0m
+[1m[  1.16%] [0m[32mncyc      529;  Time    3.465811613e-05 (sec); dt=    3.126430718e-08 (dt_grow)[0m[32m [0m
+[1m[  1.16%] [0m[32mncyc      530;  Time    3.468938044e-05 (sec); dt=    3.908038397e-08 (dt_grow)[0m[32m [0m
+[1m[  1.16%] [0m[32mncyc      531;  Time    3.472846082e-05 (sec); dt=    4.885047996e-08 (dt_grow)[0m[32m [0m
+[1m[  1.16%] [0m[32mncyc      532;  Time    3.477731130e-05 (sec); dt=    6.106309995e-08 (dt_grow)[0m[32m [0m
+[1m[  1.16%] [0m[32mncyc      533;  Time    3.483837440e-05 (sec); dt=    7.632887494e-08 (dt_grow)[0m[32m [0m
+[1m[  1.16%] [0m[32mncyc      534;  Time    3.491470327e-05 (sec); dt=    9.541109368e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.16%] [0m[32mncyc      535;  Time    3.492662966e-05 (sec); dt=    1.490798339e-08 (dt_grow)[0m[32m [0m
+[1m[  1.16%] [0m[32mncyc      536;  Time    3.494153765e-05 (sec); dt=    1.863497923e-08 (dt_grow)[0m[32m [0m
+[1m[  1.17%] [0m[32mncyc      537;  Time    3.496017262e-05 (sec); dt=    2.329372404e-08 (dt_grow)[0m[32m [0m
+[1m[  1.17%] [0m[32mncyc      538;  Time    3.498346635e-05 (sec); dt=    2.911715505e-08 (dt_grow)[0m[32m [0m
+[1m[  1.17%] [0m[32mncyc      539;  Time    3.501258350e-05 (sec); dt=    3.639644382e-08 (dt_grow)[0m[32m [0m
+[1m[  1.17%] [0m[32mncyc      540;  Time    3.504897995e-05 (sec); dt=    4.549555477e-08 (dt_grow)[0m[32m [0m
+[1m[  1.17%] [0m[32mncyc      541;  Time    3.509447550e-05 (sec); dt=    5.686944346e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.17%] [0m[32mncyc      542;  Time    3.512291022e-05 (sec); dt=    3.554340216e-08 (dt_grow)[0m[32m [0m
+[1m[  1.17%] [0m[32mncyc      543;  Time    3.515845363e-05 (sec); dt=    4.442925270e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.17%] [0m[32mncyc      544;  Time    3.518066825e-05 (sec); dt=    2.776828294e-08 (dt_grow)[0m[32m [0m
+[1m[  1.17%] [0m[32mncyc      545;  Time    3.520843654e-05 (sec); dt=    3.471035368e-08 (dt_grow)[0m[32m [0m
+[1m[  1.17%] [0m[32mncyc      546;  Time    3.524314689e-05 (sec); dt=    4.338794209e-08 (dt_grow)[0m[32m [0m
+[1m[  1.18%] [0m[32mncyc      547;  Time    3.528653483e-05 (sec); dt=    5.423492762e-08 (dt_grow)[0m[32m [0m
+[1m[  1.18%] [0m[32mncyc      548;  Time    3.534076976e-05 (sec); dt=    6.779365952e-08 (dt_grow)[0m[32m [0m
+[1m[  1.18%] [0m[32mncyc      549;  Time    3.540856342e-05 (sec); dt=    8.474207440e-08 (dt_grow)[0m[32m [0m
+[1m[  1.18%] [0m[32mncyc      550;  Time    3.549330549e-05 (sec); dt=    1.059275930e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.18%] [0m[32mncyc      551;  Time    3.550654644e-05 (sec); dt=    1.655118641e-08 (dt_grow)[0m[32m [0m
+[1m[  1.18%] [0m[32mncyc      552;  Time    3.552309763e-05 (sec); dt=    2.068898301e-08 (dt_grow)[0m[32m [0m
+[1m[  1.18%] [0m[32mncyc      553;  Time    3.554378661e-05 (sec); dt=    2.586122876e-08 (dt_grow)[0m[32m [0m
+[1m[  1.19%] [0m[32mncyc      554;  Time    3.556964784e-05 (sec); dt=    3.232653595e-08 (dt_grow)[0m[32m [0m
+[1m[  1.19%] [0m[32mncyc      555;  Time    3.560197438e-05 (sec); dt=    4.040816994e-08 (dt_grow)[0m[32m [0m
+[1m[  1.19%] [0m[32mncyc      556;  Time    3.564238255e-05 (sec); dt=    5.051021242e-08 (dt_grow)[0m[32m [0m
+[1m[  1.19%] [0m[32mncyc      557;  Time    3.569289276e-05 (sec); dt=    6.313776553e-08 (dt_grow)[0m[32m [0m
+[1m[  1.19%] [0m[32mncyc      558;  Time    3.575603052e-05 (sec); dt=    7.892220691e-08 (dt_grow)[0m[32m [0m
+[1m[  1.19%] [0m[32mncyc      559;  Time    3.583495273e-05 (sec); dt=    9.865275864e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.19%] [0m[32mncyc      560;  Time    3.584728433e-05 (sec); dt=    1.541449354e-08 (dt_grow)[0m[32m [0m
+[1m[  1.20%] [0m[32mncyc      561;  Time    3.586269882e-05 (sec); dt=    1.926811692e-08 (dt_grow)[0m[32m [0m
+[1m[  1.20%] [0m[32mncyc      562;  Time    3.588196694e-05 (sec); dt=    2.408514615e-08 (dt_grow)[0m[32m [0m
+[1m[  1.20%] [0m[32mncyc      563;  Time    3.590605208e-05 (sec); dt=    3.010643269e-08 (dt_grow)[0m[32m [0m
+[1m[  1.20%] [0m[32mncyc      564;  Time    3.593615851e-05 (sec); dt=    3.763304086e-08 (dt_grow)[0m[32m [0m
+[1m[  1.20%] [0m[32mncyc      565;  Time    3.597379156e-05 (sec); dt=    4.704130108e-08 (dt_grow)[0m[32m [0m
+[1m[  1.20%] [0m[32mncyc      566;  Time    3.602083286e-05 (sec); dt=    5.880162635e-08 (dt_grow)[0m[32m [0m
+[1m[  1.20%] [0m[32mncyc      567;  Time    3.607963448e-05 (sec); dt=    7.350203294e-08 (dt_grow)[0m[32m [0m
+[1m[  1.21%] [0m[32mncyc      568;  Time    3.615313652e-05 (sec); dt=    9.187754117e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.21%] [0m[32mncyc      569;  Time    3.616462121e-05 (sec); dt=    1.435586581e-08 (dt_grow)[0m[32m [0m
+[1m[  1.21%] [0m[32mncyc      570;  Time    3.617897707e-05 (sec); dt=    1.794483226e-08 (dt_grow)[0m[32m [0m
+[1m[  1.21%] [0m[32mncyc      571;  Time    3.619692191e-05 (sec); dt=    2.243104032e-08 (dt_grow)[0m[32m [0m
+[1m[  1.21%] [0m[32mncyc      572;  Time    3.621935295e-05 (sec); dt=    2.803880041e-08 (dt_grow)[0m[32m [0m
+[1m[  1.21%] [0m[32mncyc      573;  Time    3.624739175e-05 (sec); dt=    3.504850051e-08 (dt_grow)[0m[32m [0m
+[1m[  1.21%] [0m[32mncyc      574;  Time    3.628244025e-05 (sec); dt=    4.381062563e-08 (dt_grow)[0m[32m [0m
+[1m[  1.21%] [0m[32mncyc      575;  Time    3.632625087e-05 (sec); dt=    5.476328204e-08 (dt_grow)[0m[32m [0m
+[1m[  1.21%] [0m[32mncyc      576;  Time    3.638101416e-05 (sec); dt=    6.845410255e-08 (dt_grow)[0m[32m [0m
+[1m[  1.21%] [0m[32mncyc      577;  Time    3.644946826e-05 (sec); dt=    8.556762819e-08 (dt_grow)[0m[32m [0m
+[1m[  1.22%] [0m[32mncyc      578;  Time    3.653503589e-05 (sec); dt=    1.069595352e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.22%] [0m[32mncyc      579;  Time    3.654840583e-05 (sec); dt=    1.671242738e-08 (dt_grow)[0m[32m [0m
+[1m[  1.22%] [0m[32mncyc      580;  Time    3.656511826e-05 (sec); dt=    2.089053423e-08 (dt_grow)[0m[32m [0m
+[1m[  1.22%] [0m[32mncyc      581;  Time    3.658600879e-05 (sec); dt=    2.611316778e-08 (dt_grow)[0m[32m [0m
+[1m[  1.22%] [0m[32mncyc      582;  Time    3.661212196e-05 (sec); dt=    3.264145973e-08 (dt_grow)[0m[32m [0m
+[1m[  1.22%] [0m[32mncyc      583;  Time    3.664476342e-05 (sec); dt=    4.080182466e-08 (dt_grow)[0m[32m [0m
+[1m[  1.22%] [0m[32mncyc      584;  Time    3.668556524e-05 (sec); dt=    5.100228083e-08 (dt_grow)[0m[32m [0m
+[1m[  1.22%] [0m[32mncyc      585;  Time    3.673656752e-05 (sec); dt=    6.375285103e-08 (dt_grow)[0m[32m [0m
+[1m[  1.23%] [0m[32mncyc      586;  Time    3.680032037e-05 (sec); dt=    7.969106379e-08 (dt_grow)[0m[32m [0m
+[1m[  1.23%] [0m[32mncyc      587;  Time    3.688001144e-05 (sec); dt=    9.961382974e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.23%] [0m[32mncyc      588;  Time    3.689246317e-05 (sec); dt=    1.556466090e-08 (dt_grow)[0m[32m [0m
+[1m[  1.23%] [0m[32mncyc      589;  Time    3.690802783e-05 (sec); dt=    1.945582612e-08 (dt_grow)[0m[32m [0m
+[1m[  1.23%] [0m[32mncyc      590;  Time    3.692748365e-05 (sec); dt=    2.431978265e-08 (dt_grow)[0m[32m [0m
+[1m[  1.23%] [0m[32mncyc      591;  Time    3.695180344e-05 (sec); dt=    3.039972831e-08 (dt_grow)[0m[32m [0m
+[1m[  1.23%] [0m[32mncyc      592;  Time    3.698220316e-05 (sec); dt=    3.799966039e-08 (dt_grow)[0m[32m [0m
+[1m[  1.23%] [0m[32mncyc      593;  Time    3.702020282e-05 (sec); dt=    4.749957549e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.23%] [0m[32mncyc      594;  Time    3.704395261e-05 (sec); dt=    2.968723468e-08 (dt_grow)[0m[32m [0m
+[1m[  1.24%] [0m[32mncyc      595;  Time    3.707363985e-05 (sec); dt=    3.710904335e-08 (dt_grow)[0m[32m [0m
+[1m[  1.24%] [0m[32mncyc      596;  Time    3.711074889e-05 (sec); dt=    4.638630419e-08 (dt_grow)[0m[32m [0m
+[1m[  1.24%] [0m[32mncyc      597;  Time    3.715713519e-05 (sec); dt=    5.798288024e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.24%] [0m[32mncyc      598;  Time    3.718612663e-05 (sec); dt=    3.623930015e-08 (dt_grow)[0m[32m [0m
+[1m[  1.24%] [0m[32mncyc      599;  Time    3.722236593e-05 (sec); dt=    4.529912519e-08 (dt_grow)[0m[32m [0m
+[1m[  1.24%] [0m[32mncyc      600;  Time    3.726766506e-05 (sec); dt=    5.662390648e-08 (dt_grow)[0m[32m [0m
+[1m[  1.24%] [0m[32mncyc      601;  Time    3.732428897e-05 (sec); dt=    7.077988310e-08 (dt_grow)[0m[32m [0m
+[1m[  1.25%] [0m[32mncyc      602;  Time    3.739506885e-05 (sec); dt=    8.847485388e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.25%] [0m[32mncyc      603;  Time    3.740612821e-05 (sec); dt=    1.382419592e-08 (dt_grow)[0m[32m [0m
+[1m[  1.25%] [0m[32mncyc      604;  Time    3.741995240e-05 (sec); dt=    1.728024490e-08 (dt_grow)[0m[32m [0m
+[1m[  1.25%] [0m[32mncyc      605;  Time    3.743723265e-05 (sec); dt=    2.160030612e-08 (dt_grow)[0m[32m [0m
+[1m[  1.25%] [0m[32mncyc      606;  Time    3.745883295e-05 (sec); dt=    2.700038265e-08 (dt_grow)[0m[32m [0m
+[1m[  1.25%] [0m[32mncyc      607;  Time    3.748583334e-05 (sec); dt=    3.375047832e-08 (dt_grow)[0m[32m [0m
+[1m[  1.25%] [0m[32mncyc      608;  Time    3.751958381e-05 (sec); dt=    4.218809790e-08 (dt_grow)[0m[32m [0m
+[1m[  1.25%] [0m[32mncyc      609;  Time    3.756177191e-05 (sec); dt=    5.273512237e-08 (dt_grow)[0m[32m [0m
+[1m[  1.25%] [0m[32mncyc      610;  Time    3.761450703e-05 (sec); dt=    6.591890296e-08 (dt_grow)[0m[32m [0m
+[1m[  1.26%] [0m[32mncyc      611;  Time    3.768042594e-05 (sec); dt=    8.239862870e-08 (dt_grow)[0m[32m [0m
+[1m[  1.26%] [0m[32mncyc      612;  Time    3.776282457e-05 (sec); dt=    1.029982859e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.26%] [0m[32mncyc      613;  Time    3.777569935e-05 (sec); dt=    1.609348217e-08 (dt_grow)[0m[32m [0m
+[1m[  1.26%] [0m[32mncyc      614;  Time    3.779179283e-05 (sec); dt=    2.011685271e-08 (dt_grow)[0m[32m [0m
+[1m[  1.26%] [0m[32mncyc      615;  Time    3.781190969e-05 (sec); dt=    2.514606589e-08 (dt_grow)[0m[32m [0m
+[1m[  1.26%] [0m[32mncyc      616;  Time    3.783705575e-05 (sec); dt=    3.143258236e-08 (dt_grow)[0m[32m [0m
+[1m[  1.26%] [0m[32mncyc      617;  Time    3.786848834e-05 (sec); dt=    3.929072795e-08 (dt_grow)[0m[32m [0m
+[1m[  1.26%] [0m[32mncyc      618;  Time    3.790777906e-05 (sec); dt=    4.911340994e-08 (dt_grow)[0m[32m [0m
+[1m[  1.27%] [0m[32mncyc      619;  Time    3.795689247e-05 (sec); dt=    6.139176242e-08 (dt_grow)[0m[32m [0m
+[1m[  1.27%] [0m[32mncyc      620;  Time    3.801828424e-05 (sec); dt=    7.673970303e-08 (dt_grow)[0m[32m [0m
+[1m[  1.27%] [0m[32mncyc      621;  Time    3.809502394e-05 (sec); dt=    9.592462878e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.27%] [0m[32mncyc      622;  Time    3.810701452e-05 (sec); dt=    1.498822325e-08 (dt_grow)[0m[32m [0m
+[1m[  1.27%] [0m[32mncyc      623;  Time    3.812200274e-05 (sec); dt=    1.873527906e-08 (dt_grow)[0m[32m [0m
+[1m[  1.27%] [0m[32mncyc      624;  Time    3.814073802e-05 (sec); dt=    2.341909882e-08 (dt_grow)[0m[32m [0m
+[1m[  1.27%] [0m[32mncyc      625;  Time    3.816415712e-05 (sec); dt=    2.927387353e-08 (dt_grow)[0m[32m [0m
+[1m[  1.27%] [0m[32mncyc      626;  Time    3.819343099e-05 (sec); dt=    3.659234191e-08 (dt_grow)[0m[32m [0m
+[1m[  1.27%] [0m[32mncyc      627;  Time    3.823002333e-05 (sec); dt=    4.574042739e-08 (dt_grow)[0m[32m [0m
+[1m[  1.28%] [0m[32mncyc      628;  Time    3.827576376e-05 (sec); dt=    5.717553424e-08 (dt_grow)[0m[32m [0m
+[1m[  1.28%] [0m[32mncyc      629;  Time    3.833293930e-05 (sec); dt=    7.146941780e-08 (dt_grow)[0m[32m [0m
+[1m[  1.28%] [0m[32mncyc      630;  Time    3.840440871e-05 (sec); dt=    8.933677225e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.28%] [0m[32mncyc      631;  Time    3.841557581e-05 (sec); dt=    1.395887066e-08 (dt_grow)[0m[32m [0m
+[1m[  1.28%] [0m[32mncyc      632;  Time    3.842953468e-05 (sec); dt=    1.744858833e-08 (dt_grow)[0m[32m [0m
+[1m[  1.28%] [0m[32mncyc      633;  Time    3.844698327e-05 (sec); dt=    2.181073541e-08 (dt_grow)[0m[32m [0m
+[1m[  1.28%] [0m[32mncyc      634;  Time    3.846879400e-05 (sec); dt=    2.726341927e-08 (dt_grow)[0m[32m [0m
+[1m[  1.28%] [0m[32mncyc      635;  Time    3.849605742e-05 (sec); dt=    3.407927408e-08 (dt_grow)[0m[32m [0m
+[1m[  1.28%] [0m[32mncyc      636;  Time    3.853013670e-05 (sec); dt=    4.259909260e-08 (dt_grow)[0m[32m [0m
+[1m[  1.29%] [0m[32mncyc      637;  Time    3.857273579e-05 (sec); dt=    5.324886575e-08 (dt_grow)[0m[32m [0m
+[1m[  1.29%] [0m[32mncyc      638;  Time    3.862598466e-05 (sec); dt=    6.656108219e-08 (dt_grow)[0m[32m [0m
+[1m[  1.29%] [0m[32mncyc      639;  Time    3.869254574e-05 (sec); dt=    8.320135274e-08 (dt_grow)[0m[32m [0m
+[1m[  1.29%] [0m[32mncyc      640;  Time    3.877574709e-05 (sec); dt=    1.040016909e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.29%] [0m[32mncyc      641;  Time    3.878874730e-05 (sec); dt=    1.625026421e-08 (dt_grow)[0m[32m [0m
+[1m[  1.29%] [0m[32mncyc      642;  Time    3.880499757e-05 (sec); dt=    2.031283026e-08 (dt_grow)[0m[32m [0m
+[1m[  1.29%] [0m[32mncyc      643;  Time    3.882531040e-05 (sec); dt=    2.539103782e-08 (dt_grow)[0m[32m [0m
+[1m[  1.30%] [0m[32mncyc      644;  Time    3.885070143e-05 (sec); dt=    3.173879728e-08 (dt_grow)[0m[32m [0m
+[1m[  1.30%] [0m[32mncyc      645;  Time    3.888244023e-05 (sec); dt=    3.967349660e-08 (dt_grow)[0m[32m [0m
+[1m[  1.30%] [0m[32mncyc      646;  Time    3.892211373e-05 (sec); dt=    4.959187075e-08 (dt_grow)[0m[32m [0m
+[1m[  1.30%] [0m[32mncyc      647;  Time    3.897170560e-05 (sec); dt=    6.198983843e-08 (dt_grow)[0m[32m [0m
+[1m[  1.30%] [0m[32mncyc      648;  Time    3.903369544e-05 (sec); dt=    7.748729804e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.30%] [0m[32mncyc      649;  Time    3.907243909e-05 (sec); dt=    4.842956128e-08 (dt_grow)[0m[32m [0m
+[1m[  1.30%] [0m[32mncyc      650;  Time    3.912086865e-05 (sec); dt=    6.053695160e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.31%] [0m[32mncyc      651;  Time    3.915113712e-05 (sec); dt=    3.783559475e-08 (dt_grow)[0m[32m [0m
+[1m[  1.31%] [0m[32mncyc      652;  Time    3.918897272e-05 (sec); dt=    4.729449343e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.31%] [0m[32mncyc      653;  Time    3.921261996e-05 (sec); dt=    2.955905840e-08 (dt_grow)[0m[32m [0m
+[1m[  1.31%] [0m[32mncyc      654;  Time    3.924217902e-05 (sec); dt=    3.694882300e-08 (dt_grow)[0m[32m [0m
+[1m[  1.31%] [0m[32mncyc      655;  Time    3.927912785e-05 (sec); dt=    4.618602874e-08 (dt_grow)[0m[32m [0m
+[1m[  1.31%] [0m[32mncyc      656;  Time    3.932531388e-05 (sec); dt=    5.773253593e-08 (dt_grow)[0m[32m [0m
+[1m[  1.31%] [0m[32mncyc      657;  Time    3.938304641e-05 (sec); dt=    7.216566991e-08 (dt_grow)[0m[32m [0m
+[1m[  1.32%] [0m[32mncyc      658;  Time    3.945521208e-05 (sec); dt=    9.020708739e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.32%] [0m[32mncyc      659;  Time    3.946648797e-05 (sec); dt=    1.409485741e-08 (dt_grow)[0m[32m [0m
+[1m[  1.32%] [0m[32mncyc      660;  Time    3.948058282e-05 (sec); dt=    1.761857176e-08 (dt_grow)[0m[32m [0m
+[1m[  1.32%] [0m[32mncyc      661;  Time    3.949820140e-05 (sec); dt=    2.202321470e-08 (dt_grow)[0m[32m [0m
+[1m[  1.32%] [0m[32mncyc      662;  Time    3.952022461e-05 (sec); dt=    2.752901837e-08 (dt_grow)[0m[32m [0m
+[1m[  1.32%] [0m[32mncyc      663;  Time    3.954775363e-05 (sec); dt=    3.441127296e-08 (dt_grow)[0m[32m [0m
+[1m[  1.32%] [0m[32mncyc      664;  Time    3.958216490e-05 (sec); dt=    4.301409120e-08 (dt_grow)[0m[32m [0m
+[1m[  1.32%] [0m[32mncyc      665;  Time    3.962517899e-05 (sec); dt=    5.376761400e-08 (dt_grow)[0m[32m [0m
+[1m[  1.32%] [0m[32mncyc      666;  Time    3.967894661e-05 (sec); dt=    6.720951750e-08 (dt_grow)[0m[32m [0m
+[1m[  1.32%] [0m[32mncyc      667;  Time    3.974615612e-05 (sec); dt=    8.401189688e-08 (dt_grow)[0m[32m [0m
+[1m[  1.33%] [0m[32mncyc      668;  Time    3.983016802e-05 (sec); dt=    1.050148711e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.33%] [0m[32mncyc      669;  Time    3.984329488e-05 (sec); dt=    1.640857361e-08 (dt_grow)[0m[32m [0m
+[1m[  1.33%] [0m[32mncyc      670;  Time    3.985970345e-05 (sec); dt=    2.051071701e-08 (dt_grow)[0m[32m [0m
+[1m[  1.33%] [0m[32mncyc      671;  Time    3.988021417e-05 (sec); dt=    2.563839626e-08 (dt_grow)[0m[32m [0m
+[1m[  1.33%] [0m[32mncyc      672;  Time    3.990585257e-05 (sec); dt=    3.204799533e-08 (dt_grow)[0m[32m [0m
+[1m[  1.33%] [0m[32mncyc      673;  Time    3.993790056e-05 (sec); dt=    4.005999416e-08 (dt_grow)[0m[32m [0m
+[1m[  1.33%] [0m[32mncyc      674;  Time    3.997796056e-05 (sec); dt=    5.007499270e-08 (dt_grow)[0m[32m [0m
+[35mWriting post file outputs_original/output/post000005_+4.00280e-05.h5 .........[0m
+[35mWriting post file outputs_original/output/post000005_+4.00280e-05.h5 complete[0m
+[35mWriting restart file outputs_original/restart0005.rst .........[0m
+[35mFinished writing restart file outputs_original/restart0005.rst[0m
+[1m[  1.33%] [0m[32mncyc      675;  Time    4.002803555e-05 (sec); dt=    6.259374088e-08 (dt_grow)[0m[32m [0m
+[1m[  1.34%] [0m[32mncyc      676;  Time    4.009062929e-05 (sec); dt=    7.824217610e-08 (dt_grow)[0m[32m [0m
+[1m[  1.34%] [0m[32mncyc      677;  Time    4.016887147e-05 (sec); dt=    9.780272012e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.34%] [0m[32mncyc      678;  Time    4.018109681e-05 (sec); dt=    1.528167502e-08 (dt_grow)[0m[32m [0m
+[1m[  1.34%] [0m[32mncyc      679;  Time    4.019637848e-05 (sec); dt=    1.910209377e-08 (dt_grow)[0m[32m [0m
+[1m[  1.34%] [0m[32mncyc      680;  Time    4.021548058e-05 (sec); dt=    2.387761722e-08 (dt_grow)[0m[32m [0m
+[1m[  1.34%] [0m[32mncyc      681;  Time    4.023935819e-05 (sec); dt=    2.984702152e-08 (dt_grow)[0m[32m [0m
+[1m[  1.34%] [0m[32mncyc      682;  Time    4.026920521e-05 (sec); dt=    3.730877690e-08 (dt_grow)[0m[32m [0m
+[1m[  1.34%] [0m[32mncyc      683;  Time    4.030651399e-05 (sec); dt=    4.663597113e-08 (dt_grow)[0m[32m [0m
+[1m[  1.35%] [0m[32mncyc      684;  Time    4.035314996e-05 (sec); dt=    5.829496391e-08 (dt_grow)[0m[32m [0m
+[1m[  1.35%] [0m[32mncyc      685;  Time    4.041144493e-05 (sec); dt=    7.286870489e-08 (dt_grow)[0m[32m [0m
+[1m[  1.35%] [0m[32mncyc      686;  Time    4.048431363e-05 (sec); dt=    9.108588111e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.35%] [0m[32mncyc      687;  Time    4.049569937e-05 (sec); dt=    1.423216892e-08 (dt_grow)[0m[32m [0m
+[1m[  1.35%] [0m[32mncyc      688;  Time    4.050993153e-05 (sec); dt=    1.779021115e-08 (dt_grow)[0m[32m [0m
+[1m[  1.35%] [0m[32mncyc      689;  Time    4.052772175e-05 (sec); dt=    2.223776394e-08 (dt_grow)[0m[32m [0m
+[1m[  1.35%] [0m[32mncyc      690;  Time    4.054995951e-05 (sec); dt=    2.779720493e-08 (dt_grow)[0m[32m [0m
+[1m[  1.35%] [0m[32mncyc      691;  Time    4.057775671e-05 (sec); dt=    3.474650616e-08 (dt_grow)[0m[32m [0m
+[1m[  1.35%] [0m[32mncyc      692;  Time    4.061250322e-05 (sec); dt=    4.343313270e-08 (dt_grow)[0m[32m [0m
+[1m[  1.36%] [0m[32mncyc      693;  Time    4.065593635e-05 (sec); dt=    5.429141588e-08 (dt_grow)[0m[32m [0m
+[1m[  1.36%] [0m[32mncyc      694;  Time    4.071022777e-05 (sec); dt=    6.786426985e-08 (dt_grow)[0m[32m [0m
+[1m[  1.36%] [0m[32mncyc      695;  Time    4.077809204e-05 (sec); dt=    8.483033731e-08 (dt_grow)[0m[32m [0m
+[1m[  1.36%] [0m[32mncyc      696;  Time    4.086292238e-05 (sec); dt=    1.060379216e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.36%] [0m[32mncyc      697;  Time    4.087617712e-05 (sec); dt=    1.656842526e-08 (dt_grow)[0m[32m [0m
+[1m[  1.36%] [0m[32mncyc      698;  Time    4.089274554e-05 (sec); dt=    2.071053157e-08 (dt_grow)[0m[32m [0m
+[1m[  1.36%] [0m[32mncyc      699;  Time    4.091345607e-05 (sec); dt=    2.588816446e-08 (dt_grow)[0m[32m [0m
+[1m[  1.36%] [0m[32mncyc      700;  Time    4.093934424e-05 (sec); dt=    3.236020558e-08 (dt_grow)[0m[32m [0m
+[1m[  1.37%] [0m[32mncyc      701;  Time    4.097170444e-05 (sec); dt=    4.045025697e-08 (dt_grow)[0m[32m [0m
+[1m[  1.37%] [0m[32mncyc      702;  Time    4.101215470e-05 (sec); dt=    5.056282121e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.37%] [0m[32mncyc      703;  Time    4.103743611e-05 (sec); dt=    3.160176326e-08 (dt_grow)[0m[32m [0m
+[1m[  1.37%] [0m[32mncyc      704;  Time    4.106903787e-05 (sec); dt=    3.950220407e-08 (dt_grow)[0m[32m [0m
+[1m[  1.37%] [0m[32mncyc      705;  Time    4.110854008e-05 (sec); dt=    4.937775509e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.37%] [0m[32mncyc      706;  Time    4.113322896e-05 (sec); dt=    3.086109693e-08 (dt_grow)[0m[32m [0m
+[1m[  1.37%] [0m[32mncyc      707;  Time    4.116409005e-05 (sec); dt=    3.857637117e-08 (dt_grow)[0m[32m [0m
+[1m[  1.37%] [0m[32mncyc      708;  Time    4.120266642e-05 (sec); dt=    4.822046396e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.37%] [0m[32mncyc      709;  Time    4.122677666e-05 (sec); dt=    3.013778997e-08 (dt_grow)[0m[32m [0m
+[1m[  1.38%] [0m[32mncyc      710;  Time    4.125691445e-05 (sec); dt=    3.767223747e-08 (dt_grow)[0m[32m [0m
+[1m[  1.38%] [0m[32mncyc      711;  Time    4.129458668e-05 (sec); dt=    4.709029683e-08 (dt_grow)[0m[32m [0m
+[1m[  1.38%] [0m[32mncyc      712;  Time    4.134167698e-05 (sec); dt=    5.886287104e-08 (dt_grow)[0m[32m [0m
+[1m[  1.38%] [0m[32mncyc      713;  Time    4.140053985e-05 (sec); dt=    7.357858880e-08 (dt_grow)[0m[32m [0m
+[1m[  1.38%] [0m[32mncyc      714;  Time    4.147411844e-05 (sec); dt=    9.197323600e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.38%] [0m[32mncyc      715;  Time    4.148561510e-05 (sec); dt=    1.437081813e-08 (dt_grow)[0m[32m [0m
+[1m[  1.38%] [0m[32mncyc      716;  Time    4.149998591e-05 (sec); dt=    1.796352266e-08 (dt_grow)[0m[32m [0m
+[1m[  1.38%] [0m[32mncyc      717;  Time    4.151794944e-05 (sec); dt=    2.245440332e-08 (dt_grow)[0m[32m [0m
+[1m[  1.38%] [0m[32mncyc      718;  Time    4.154040384e-05 (sec); dt=    2.806800415e-08 (dt_grow)[0m[32m [0m
+[1m[  1.39%] [0m[32mncyc      719;  Time    4.156847184e-05 (sec); dt=    3.508500519e-08 (dt_grow)[0m[32m [0m
+[1m[  1.39%] [0m[32mncyc      720;  Time    4.160355685e-05 (sec); dt=    4.385625649e-08 (dt_grow)[0m[32m [0m
+[1m[  1.39%] [0m[32mncyc      721;  Time    4.164741311e-05 (sec); dt=    5.482032061e-08 (dt_grow)[0m[32m [0m
+[1m[  1.39%] [0m[32mncyc      722;  Time    4.170223343e-05 (sec); dt=    6.852540076e-08 (dt_grow)[0m[32m [0m
+[1m[  1.39%] [0m[32mncyc      723;  Time    4.177075883e-05 (sec); dt=    8.565675095e-08 (dt_grow)[0m[32m [0m
+[1m[  1.40%] [0m[32mncyc      724;  Time    4.185641558e-05 (sec); dt=    1.070709387e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.40%] [0m[32mncyc      725;  Time    4.186979944e-05 (sec); dt=    1.672983417e-08 (dt_grow)[0m[32m [0m
+[1m[  1.40%] [0m[32mncyc      726;  Time    4.188652928e-05 (sec); dt=    2.091229271e-08 (dt_grow)[0m[32m [0m
+[1m[  1.40%] [0m[32mncyc      727;  Time    4.190744157e-05 (sec); dt=    2.614036589e-08 (dt_grow)[0m[32m [0m
+[1m[  1.40%] [0m[32mncyc      728;  Time    4.193358194e-05 (sec); dt=    3.267545736e-08 (dt_grow)[0m[32m [0m
+[1m[  1.40%] [0m[32mncyc      729;  Time    4.196625739e-05 (sec); dt=    4.084432170e-08 (dt_grow)[0m[32m [0m
+[1m[  1.40%] [0m[32mncyc      730;  Time    4.200710172e-05 (sec); dt=    5.105540213e-08 (dt_grow)[0m[32m [0m
+[1m[  1.40%] [0m[32mncyc      731;  Time    4.205815712e-05 (sec); dt=    6.381925266e-08 (dt_grow)[0m[32m [0m
+[1m[  1.40%] [0m[32mncyc      732;  Time    4.212197637e-05 (sec); dt=    7.977406583e-08 (dt_grow)[0m[32m [0m
+[1m[  1.41%] [0m[32mncyc      733;  Time    4.220175044e-05 (sec); dt=    9.971758228e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.41%] [0m[32mncyc      734;  Time    4.221421513e-05 (sec); dt=    1.558087223e-08 (dt_grow)[0m[32m [0m
+[1m[  1.41%] [0m[32mncyc      735;  Time    4.222979601e-05 (sec); dt=    1.947609029e-08 (dt_grow)[0m[32m [0m
+[1m[  1.41%] [0m[32mncyc      736;  Time    4.224927210e-05 (sec); dt=    2.434511286e-08 (dt_grow)[0m[32m [0m
+[1m[  1.41%] [0m[32mncyc      737;  Time    4.227361721e-05 (sec); dt=    3.043139108e-08 (dt_grow)[0m[32m [0m
+[1m[  1.41%] [0m[32mncyc      738;  Time    4.230404860e-05 (sec); dt=    3.803923885e-08 (dt_grow)[0m[32m [0m
+[1m[  1.41%] [0m[32mncyc      739;  Time    4.234208784e-05 (sec); dt=    4.754904856e-08 (dt_grow)[0m[32m [0m
+[1m[  1.41%] [0m[32mncyc      740;  Time    4.238963689e-05 (sec); dt=    5.943631070e-08 (dt_grow)[0m[32m [0m
+[1m[  1.41%] [0m[32mncyc      741;  Time    4.244907320e-05 (sec); dt=    7.429538837e-08 (dt_grow)[0m[32m [0m
+[1m[  1.42%] [0m[32mncyc      742;  Time    4.252336859e-05 (sec); dt=    9.286923547e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.42%] [0m[32mncyc      743;  Time    4.253497724e-05 (sec); dt=    1.451081804e-08 (dt_grow)[0m[32m [0m
+[1m[  1.42%] [0m[32mncyc      744;  Time    4.254948806e-05 (sec); dt=    1.813852255e-08 (dt_grow)[0m[32m [0m
+[1m[  1.42%] [0m[32mncyc      745;  Time    4.256762658e-05 (sec); dt=    2.267315319e-08 (dt_grow)[0m[32m [0m
+[1m[  1.42%] [0m[32mncyc      746;  Time    4.259029974e-05 (sec); dt=    2.834144149e-08 (dt_grow)[0m[32m [0m
+[1m[  1.42%] [0m[32mncyc      747;  Time    4.261864118e-05 (sec); dt=    3.542680186e-08 (dt_grow)[0m[32m [0m
+[1m[  1.42%] [0m[32mncyc      748;  Time    4.265406798e-05 (sec); dt=    4.428350232e-08 (dt_grow)[0m[32m [0m
+[1m[  1.42%] [0m[32mncyc      749;  Time    4.269835148e-05 (sec); dt=    5.535437791e-08 (dt_grow)[0m[32m [0m
+[1m[  1.43%] [0m[32mncyc      750;  Time    4.275370586e-05 (sec); dt=    6.919297238e-08 (dt_grow)[0m[32m [0m
+[1m[  1.43%] [0m[32mncyc      751;  Time    4.282289883e-05 (sec); dt=    8.649121548e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.43%] [0m[32mncyc      752;  Time    4.283371023e-05 (sec); dt=    1.351425242e-08 (dt_grow)[0m[32m [0m
+[1m[  1.43%] [0m[32mncyc      753;  Time    4.284722449e-05 (sec); dt=    1.689281552e-08 (dt_grow)[0m[32m [0m
+[1m[  1.43%] [0m[32mncyc      754;  Time    4.286411730e-05 (sec); dt=    2.111601940e-08 (dt_grow)[0m[32m [0m
+[1m[  1.43%] [0m[32mncyc      755;  Time    4.288523332e-05 (sec); dt=    2.639502425e-08 (dt_grow)[0m[32m [0m
+[1m[  1.43%] [0m[32mncyc      756;  Time    4.291162835e-05 (sec); dt=    3.299378032e-08 (dt_grow)[0m[32m [0m
+[1m[  1.43%] [0m[32mncyc      757;  Time    4.294462213e-05 (sec); dt=    4.124222540e-08 (dt_grow)[0m[32m [0m
+[1m[  1.43%] [0m[32mncyc      758;  Time    4.298586435e-05 (sec); dt=    5.155278175e-08 (dt_grow)[0m[32m [0m
+[1m[  1.43%] [0m[32mncyc      759;  Time    4.303741713e-05 (sec); dt=    6.444097718e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.44%] [0m[32mncyc      760;  Time    4.306963762e-05 (sec); dt=    4.027561074e-08 (dt_grow)[0m[32m [0m
+[1m[  1.44%] [0m[32mncyc      761;  Time    4.310991323e-05 (sec); dt=    5.034451342e-08 (dt_grow)[0m[32m [0m
+[1m[  1.44%] [0m[32mncyc      762;  Time    4.316025775e-05 (sec); dt=    6.293064178e-08 (dt_grow)[0m[32m [0m
+[1m[  1.44%] [0m[32mncyc      763;  Time    4.322318839e-05 (sec); dt=    7.866330223e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.44%] [0m[32mncyc      764;  Time    4.324285421e-05 (sec); dt=    2.458228195e-08 (dt_grow)[0m[32m [0m
+[1m[  1.44%] [0m[32mncyc      765;  Time    4.326743650e-05 (sec); dt=    3.072785243e-08 (dt_grow)[0m[32m [0m
+[1m[  1.44%] [0m[32mncyc      766;  Time    4.329816435e-05 (sec); dt=    3.840981554e-08 (dt_grow)[0m[32m [0m
+[1m[  1.44%] [0m[32mncyc      767;  Time    4.333657416e-05 (sec); dt=    4.801226943e-08 (dt_grow)[0m[32m [0m
+[1m[  1.45%] [0m[32mncyc      768;  Time    4.338458643e-05 (sec); dt=    6.001533678e-08 (dt_grow)[0m[32m [0m
+[1m[  1.45%] [0m[32mncyc      769;  Time    4.344460177e-05 (sec); dt=    7.501917098e-08 (dt_grow)[0m[32m [0m
+[1m[  1.45%] [0m[32mncyc      770;  Time    4.351962094e-05 (sec); dt=    9.377396372e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.45%] [0m[32mncyc      771;  Time    4.353134269e-05 (sec); dt=    1.465218183e-08 (dt_grow)[0m[32m [0m
+[1m[  1.45%] [0m[32mncyc      772;  Time    4.354599487e-05 (sec); dt=    1.831522729e-08 (dt_grow)[0m[32m [0m
+[1m[  1.45%] [0m[32mncyc      773;  Time    4.356431009e-05 (sec); dt=    2.289403411e-08 (dt_grow)[0m[32m [0m
+[1m[  1.45%] [0m[32mncyc      774;  Time    4.358720413e-05 (sec); dt=    2.861754264e-08 (dt_grow)[0m[32m [0m
+[1m[  1.45%] [0m[32mncyc      775;  Time    4.361582167e-05 (sec); dt=    3.577192830e-08 (dt_grow)[0m[32m [0m
+[1m[  1.46%] [0m[32mncyc      776;  Time    4.365159360e-05 (sec); dt=    4.471491037e-08 (dt_grow)[0m[32m [0m
+[1m[  1.46%] [0m[32mncyc      777;  Time    4.369630851e-05 (sec); dt=    5.589363797e-08 (dt_grow)[0m[32m [0m
+[1m[  1.46%] [0m[32mncyc      778;  Time    4.375220215e-05 (sec); dt=    6.986704746e-08 (dt_grow)[0m[32m [0m
+[1m[  1.46%] [0m[32mncyc      779;  Time    4.382206920e-05 (sec); dt=    8.733380932e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.46%] [0m[32mncyc      780;  Time    4.383298592e-05 (sec); dt=    1.364590771e-08 (dt_grow)[0m[32m [0m
+[1m[  1.46%] [0m[32mncyc      781;  Time    4.384663183e-05 (sec); dt=    1.705738463e-08 (dt_grow)[0m[32m [0m
+[1m[  1.46%] [0m[32mncyc      782;  Time    4.386368921e-05 (sec); dt=    2.132173079e-08 (dt_grow)[0m[32m [0m
+[1m[  1.46%] [0m[32mncyc      783;  Time    4.388501094e-05 (sec); dt=    2.665216349e-08 (dt_grow)[0m[32m [0m
+[1m[  1.46%] [0m[32mncyc      784;  Time    4.391166311e-05 (sec); dt=    3.331520436e-08 (dt_grow)[0m[32m [0m
+[1m[  1.46%] [0m[32mncyc      785;  Time    4.394497831e-05 (sec); dt=    4.164400545e-08 (dt_grow)[0m[32m [0m
+[1m[  1.47%] [0m[32mncyc      786;  Time    4.398662232e-05 (sec); dt=    5.205500682e-08 (dt_grow)[0m[32m [0m
+[1m[  1.47%] [0m[32mncyc      787;  Time    4.403867733e-05 (sec); dt=    6.506875852e-08 (dt_grow)[0m[32m [0m
+[1m[  1.47%] [0m[32mncyc      788;  Time    4.410374608e-05 (sec); dt=    8.133594815e-08 (dt_grow)[0m[32m [0m
+[1m[  1.47%] [0m[32mncyc      789;  Time    4.418508203e-05 (sec); dt=    1.016699352e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.47%] [0m[32mncyc      790;  Time    4.419779077e-05 (sec); dt=    1.588592737e-08 (dt_grow)[0m[32m [0m
+[1m[  1.47%] [0m[32mncyc      791;  Time    4.421367670e-05 (sec); dt=    1.985740922e-08 (dt_grow)[0m[32m [0m
+[1m[  1.47%] [0m[32mncyc      792;  Time    4.423353411e-05 (sec); dt=    2.482176152e-08 (dt_grow)[0m[32m [0m
+[1m[  1.48%] [0m[32mncyc      793;  Time    4.425835587e-05 (sec); dt=    3.102720190e-08 (dt_grow)[0m[32m [0m
+[1m[  1.48%] [0m[32mncyc      794;  Time    4.428938307e-05 (sec); dt=    3.878400238e-08 (dt_grow)[0m[32m [0m
+[1m[  1.48%] [0m[32mncyc      795;  Time    4.432816708e-05 (sec); dt=    4.848000297e-08 (dt_grow)[0m[32m [0m
+[1m[  1.48%] [0m[32mncyc      796;  Time    4.437664708e-05 (sec); dt=    6.060000371e-08 (dt_grow)[0m[32m [0m
+[1m[  1.48%] [0m[32mncyc      797;  Time    4.443724708e-05 (sec); dt=    7.575000464e-08 (dt_grow)[0m[32m [0m
+[1m[  1.48%] [0m[32mncyc      798;  Time    4.451299709e-05 (sec); dt=    9.468750580e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.48%] [0m[32mncyc      799;  Time    4.452483303e-05 (sec); dt=    1.479492278e-08 (dt_grow)[0m[32m [0m
+[1m[  1.48%] [0m[32mncyc      800;  Time    4.453962795e-05 (sec); dt=    1.849365348e-08 (dt_grow)[0m[32m [0m
+[1m[  1.49%] [0m[32mncyc      801;  Time    4.455812160e-05 (sec); dt=    2.311706685e-08 (dt_grow)[0m[32m [0m
+[1m[  1.49%] [0m[32mncyc      802;  Time    4.458123867e-05 (sec); dt=    2.889633356e-08 (dt_grow)[0m[32m [0m
+[1m[  1.49%] [0m[32mncyc      803;  Time    4.461013500e-05 (sec); dt=    3.612041695e-08 (dt_grow)[0m[32m [0m
+[1m[  1.49%] [0m[32mncyc      804;  Time    4.464625542e-05 (sec); dt=    4.515052118e-08 (dt_grow)[0m[32m [0m
+[1m[  1.49%] [0m[32mncyc      805;  Time    4.469140594e-05 (sec); dt=    5.643815148e-08 (dt_grow)[0m[32m [0m
+[1m[  1.49%] [0m[32mncyc      806;  Time    4.474784409e-05 (sec); dt=    7.054768935e-08 (dt_grow)[0m[32m [0m
+[1m[  1.49%] [0m[32mncyc      807;  Time    4.481839178e-05 (sec); dt=    8.818461169e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.49%] [0m[32mncyc      808;  Time    4.482941486e-05 (sec); dt=    1.377884558e-08 (dt_grow)[0m[32m [0m
+[1m[  1.49%] [0m[32mncyc      809;  Time    4.484319370e-05 (sec); dt=    1.722355697e-08 (dt_grow)[0m[32m [0m
+[1m[  1.50%] [0m[32mncyc      810;  Time    4.486041726e-05 (sec); dt=    2.152944621e-08 (dt_grow)[0m[32m [0m
+[1m[  1.50%] [0m[32mncyc      811;  Time    4.488194671e-05 (sec); dt=    2.691180777e-08 (dt_grow)[0m[32m [0m
+[1m[  1.50%] [0m[32mncyc      812;  Time    4.490885851e-05 (sec); dt=    3.363975971e-08 (dt_grow)[0m[32m [0m
+[1m[  1.50%] [0m[32mncyc      813;  Time    4.494249827e-05 (sec); dt=    4.204969963e-08 (dt_grow)[0m[32m [0m
+[1m[  1.50%] [0m[32mncyc      814;  Time    4.498454797e-05 (sec); dt=    5.256212454e-08 (dt_grow)[0m[32m [0m
+[1m[  1.50%] [0m[32mncyc      815;  Time    4.503711010e-05 (sec); dt=    6.570265568e-08 (dt_grow)[0m[32m [0m
+[1m[  1.50%] [0m[32mncyc      816;  Time    4.510281275e-05 (sec); dt=    8.212831960e-08 (dt_grow)[0m[32m [0m
+[1m[  1.51%] [0m[32mncyc      817;  Time    4.518494107e-05 (sec); dt=    1.026603995e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.51%] [0m[32mncyc      818;  Time    4.519777362e-05 (sec); dt=    1.604068742e-08 (dt_grow)[0m[32m [0m
+[1m[  1.51%] [0m[32mncyc      819;  Time    4.521381431e-05 (sec); dt=    2.005085928e-08 (dt_grow)[0m[32m [0m
+[1m[  1.51%] [0m[32mncyc      820;  Time    4.523386517e-05 (sec); dt=    2.506357410e-08 (dt_grow)[0m[32m [0m
+[1m[  1.51%] [0m[32mncyc      821;  Time    4.525892874e-05 (sec); dt=    3.132946762e-08 (dt_grow)[0m[32m [0m
+[1m[  1.51%] [0m[32mncyc      822;  Time    4.529025821e-05 (sec); dt=    3.916183452e-08 (dt_grow)[0m[32m [0m
+[1m[  1.51%] [0m[32mncyc      823;  Time    4.532942005e-05 (sec); dt=    4.895229316e-08 (dt_grow)[0m[32m [0m
+[1m[  1.51%] [0m[32mncyc      824;  Time    4.537837234e-05 (sec); dt=    6.119036644e-08 (dt_grow)[0m[32m [0m
+[1m[  1.51%] [0m[32mncyc      825;  Time    4.543956271e-05 (sec); dt=    7.648795806e-08 (dt_grow)[0m[32m [0m
+[1m[  1.52%] [0m[32mncyc      826;  Time    4.551605066e-05 (sec); dt=    9.560994757e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.52%] [0m[32mncyc      827;  Time    4.552800191e-05 (sec); dt=    1.493905431e-08 (dt_grow)[0m[32m [0m
+[1m[  1.52%] [0m[32mncyc      828;  Time    4.554294096e-05 (sec); dt=    1.867381788e-08 (dt_grow)[0m[32m [0m
+[1m[  1.52%] [0m[32mncyc      829;  Time    4.556161478e-05 (sec); dt=    2.334227236e-08 (dt_grow)[0m[32m [0m
+[1m[  1.52%] [0m[32mncyc      830;  Time    4.558495705e-05 (sec); dt=    2.917784045e-08 (dt_grow)[0m[32m [0m
+[1m[  1.52%] [0m[32mncyc      831;  Time    4.561413489e-05 (sec); dt=    3.647230056e-08 (dt_grow)[0m[32m [0m
+[1m[  1.52%] [0m[32mncyc      832;  Time    4.565060719e-05 (sec); dt=    4.559037570e-08 (dt_grow)[0m[32m [0m
+[1m[  1.52%] [0m[32mncyc      833;  Time    4.569619757e-05 (sec); dt=    5.698796962e-08 (dt_grow)[0m[32m [0m
+[1m[  1.53%] [0m[32mncyc      834;  Time    4.575318554e-05 (sec); dt=    7.123496202e-08 (dt_grow)[0m[32m [0m
+[1m[  1.53%] [0m[32mncyc      835;  Time    4.582442050e-05 (sec); dt=    8.904370253e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.53%] [0m[32mncyc      836;  Time    4.584668143e-05 (sec); dt=    2.782615704e-08 (dt_grow)[0m[32m [0m
+[1m[  1.53%] [0m[32mncyc      837;  Time    4.587450758e-05 (sec); dt=    3.478269630e-08 (dt_grow)[0m[32m [0m
+[1m[  1.53%] [0m[32mncyc      838;  Time    4.590929028e-05 (sec); dt=    4.347837038e-08 (dt_grow)[0m[32m [0m
+[1m[  1.53%] [0m[32mncyc      839;  Time    4.595276865e-05 (sec); dt=    5.434796297e-08 (dt_grow)[0m[32m [0m
+[1m[  1.53%] [0m[32mncyc      840;  Time    4.600711661e-05 (sec); dt=    6.793495371e-08 (dt_grow)[0m[32m [0m
+[1m[  1.54%] [0m[32mncyc      841;  Time    4.607505157e-05 (sec); dt=    8.491869214e-08 (dt_grow)[0m[32m [0m
+[1m[  1.54%] [0m[32mncyc      842;  Time    4.615997026e-05 (sec); dt=    1.061483652e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.54%] [0m[32mncyc      843;  Time    4.617323880e-05 (sec); dt=    1.658568206e-08 (dt_grow)[0m[32m [0m
+[1m[  1.54%] [0m[32mncyc      844;  Time    4.618982449e-05 (sec); dt=    2.073210257e-08 (dt_grow)[0m[32m [0m
+[1m[  1.54%] [0m[32mncyc      845;  Time    4.621055659e-05 (sec); dt=    2.591512822e-08 (dt_grow)[0m[32m [0m
+[1m[  1.54%] [0m[32mncyc      846;  Time    4.623647172e-05 (sec); dt=    3.239391027e-08 (dt_grow)[0m[32m [0m
+[1m[  1.54%] [0m[32mncyc      847;  Time    4.626886563e-05 (sec); dt=    4.049238784e-08 (dt_grow)[0m[32m [0m
+[1m[  1.54%] [0m[32mncyc      848;  Time    4.630935801e-05 (sec); dt=    5.061548480e-08 (dt_grow)[0m[32m [0m
+[1m[  1.55%] [0m[32mncyc      849;  Time    4.635997350e-05 (sec); dt=    6.326935600e-08 (dt_grow)[0m[32m [0m
+[1m[  1.55%] [0m[32mncyc      850;  Time    4.642324286e-05 (sec); dt=    7.908669500e-08 (dt_grow)[0m[32m [0m
+[1m[  1.55%] [0m[32mncyc      851;  Time    4.650232955e-05 (sec); dt=    9.885836875e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.55%] [0m[32mncyc      852;  Time    4.651468685e-05 (sec); dt=    1.544662012e-08 (dt_grow)[0m[32m [0m
+[1m[  1.55%] [0m[32mncyc      853;  Time    4.653013347e-05 (sec); dt=    1.930827515e-08 (dt_grow)[0m[32m [0m
+[1m[  1.55%] [0m[32mncyc      854;  Time    4.654944174e-05 (sec); dt=    2.413534393e-08 (dt_grow)[0m[32m [0m
+[1m[  1.55%] [0m[32mncyc      855;  Time    4.657357709e-05 (sec); dt=    3.016917992e-08 (dt_grow)[0m[32m [0m
+[1m[  1.55%] [0m[32mncyc      856;  Time    4.660374627e-05 (sec); dt=    3.771147489e-08 (dt_grow)[0m[32m [0m
+[1m[  1.55%] [0m[32mncyc      857;  Time    4.664145774e-05 (sec); dt=    4.713934362e-08 (dt_grow)[0m[32m [0m
+[1m[  1.56%] [0m[32mncyc      858;  Time    4.668859708e-05 (sec); dt=    5.892417952e-08 (dt_grow)[0m[32m [0m
+[1m[  1.56%] [0m[32mncyc      859;  Time    4.674752126e-05 (sec); dt=    7.365522440e-08 (dt_grow)[0m[32m [0m
+[1m[  1.56%] [0m[32mncyc      860;  Time    4.682117649e-05 (sec); dt=    9.206903050e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.56%] [0m[32mncyc      861;  Time    4.683268512e-05 (sec); dt=    1.438578602e-08 (dt_grow)[0m[32m [0m
+[1m[  1.56%] [0m[32mncyc      862;  Time    4.684707090e-05 (sec); dt=    1.798223252e-08 (dt_grow)[0m[32m [0m
+[1m[  1.56%] [0m[32mncyc      863;  Time    4.686505314e-05 (sec); dt=    2.247779065e-08 (dt_grow)[0m[32m [0m
+[1m[  1.56%] [0m[32mncyc      864;  Time    4.688753093e-05 (sec); dt=    2.809723831e-08 (dt_grow)[0m[32m [0m
+[1m[  1.56%] [0m[32mncyc      865;  Time    4.691562816e-05 (sec); dt=    3.512154789e-08 (dt_grow)[0m[32m [0m
+[1m[  1.57%] [0m[32mncyc      866;  Time    4.695074971e-05 (sec); dt=    4.390193486e-08 (dt_grow)[0m[32m [0m
+[1m[  1.57%] [0m[32mncyc      867;  Time    4.699465165e-05 (sec); dt=    5.487741858e-08 (dt_grow)[0m[32m [0m
+[1m[  1.57%] [0m[32mncyc      868;  Time    4.704952907e-05 (sec); dt=    6.859677322e-08 (dt_grow)[0m[32m [0m
+[1m[  1.57%] [0m[32mncyc      869;  Time    4.711812584e-05 (sec); dt=    8.574596653e-08 (dt_grow)[0m[32m [0m
+[1m[  1.57%] [0m[32mncyc      870;  Time    4.720387181e-05 (sec); dt=    1.071824582e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.57%] [0m[32mncyc      871;  Time    4.721726961e-05 (sec); dt=    1.674725909e-08 (dt_grow)[0m[32m [0m
+[1m[  1.57%] [0m[32mncyc      872;  Time    4.723401687e-05 (sec); dt=    2.093407386e-08 (dt_grow)[0m[32m [0m
+[1m[  1.58%] [0m[32mncyc      873;  Time    4.725495095e-05 (sec); dt=    2.616759233e-08 (dt_grow)[0m[32m [0m
+[1m[  1.58%] [0m[32mncyc      874;  Time    4.728111854e-05 (sec); dt=    3.270949041e-08 (dt_grow)[0m[32m [0m
+[1m[  1.58%] [0m[32mncyc      875;  Time    4.731382803e-05 (sec); dt=    4.088686301e-08 (dt_grow)[0m[32m [0m
+[1m[  1.58%] [0m[32mncyc      876;  Time    4.735471489e-05 (sec); dt=    5.110857876e-08 (dt_grow)[0m[32m [0m
+[1m[  1.58%] [0m[32mncyc      877;  Time    4.740582347e-05 (sec); dt=    6.388572345e-08 (dt_grow)[0m[32m [0m
+[1m[  1.58%] [0m[32mncyc      878;  Time    4.746970919e-05 (sec); dt=    7.985715431e-08 (dt_grow)[0m[32m [0m
+[1m[  1.58%] [0m[32mncyc      879;  Time    4.754956635e-05 (sec); dt=    9.982144289e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.59%] [0m[32mncyc      880;  Time    4.756204403e-05 (sec); dt=    1.559710045e-08 (dt_grow)[0m[32m [0m
+[1m[  1.59%] [0m[32mncyc      881;  Time    4.757764113e-05 (sec); dt=    1.949637556e-08 (dt_grow)[0m[32m [0m
+[1m[  1.59%] [0m[32mncyc      882;  Time    4.759713750e-05 (sec); dt=    2.437046946e-08 (dt_grow)[0m[32m [0m
+[1m[  1.59%] [0m[32mncyc      883;  Time    4.762150797e-05 (sec); dt=    3.046308682e-08 (dt_grow)[0m[32m [0m
+[1m[  1.59%] [0m[32mncyc      884;  Time    4.765197106e-05 (sec); dt=    3.807885852e-08 (dt_grow)[0m[32m [0m
+[1m[  1.59%] [0m[32mncyc      885;  Time    4.769004992e-05 (sec); dt=    4.759857316e-08 (dt_grow)[0m[32m [0m
+[1m[  1.59%] [0m[32mncyc      886;  Time    4.773764849e-05 (sec); dt=    5.949821644e-08 (dt_grow)[0m[32m [0m
+[1m[  1.59%] [0m[32mncyc      887;  Time    4.779714671e-05 (sec); dt=    7.437277056e-08 (dt_grow)[0m[32m [0m
+[1m[  1.60%] [0m[32mncyc      888;  Time    4.787151948e-05 (sec); dt=    9.296596319e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.60%] [0m[32mncyc      889;  Time    4.788314023e-05 (sec); dt=    1.452593175e-08 (dt_grow)[0m[32m [0m
+[1m[  1.60%] [0m[32mncyc      890;  Time    4.789766616e-05 (sec); dt=    1.815741469e-08 (dt_grow)[0m[32m [0m
+[1m[  1.60%] [0m[32mncyc      891;  Time    4.791582357e-05 (sec); dt=    2.269676836e-08 (dt_grow)[0m[32m [0m
+[1m[  1.60%] [0m[32mncyc      892;  Time    4.793852034e-05 (sec); dt=    2.837096045e-08 (dt_grow)[0m[32m [0m
+[1m[  1.60%] [0m[32mncyc      893;  Time    4.796689130e-05 (sec); dt=    3.546370056e-08 (dt_grow)[0m[32m [0m
+[1m[  1.60%] [0m[32mncyc      894;  Time    4.800235500e-05 (sec); dt=    4.432962570e-08 (dt_grow)[0m[32m [0m
+[1m[  1.60%] [0m[32mncyc      895;  Time    4.804668463e-05 (sec); dt=    5.541203212e-08 (dt_grow)[0m[32m [0m
+[1m[  1.60%] [0m[32mncyc      896;  Time    4.810209666e-05 (sec); dt=    6.926504016e-08 (dt_grow)[0m[32m [0m
+[1m[  1.61%] [0m[32mncyc      897;  Time    4.817136170e-05 (sec); dt=    8.658130019e-08 (dt_grow)[0m[32m [0m
+[1m[  1.61%] [0m[32mncyc      898;  Time    4.825794300e-05 (sec); dt=    1.082266252e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.61%] [0m[32mncyc      899;  Time    4.827147133e-05 (sec); dt=    1.691041019e-08 (dt_grow)[0m[32m [0m
+[1m[  1.61%] [0m[32mncyc      900;  Time    4.828838174e-05 (sec); dt=    2.113801274e-08 (dt_grow)[0m[32m [0m
+[1m[  1.61%] [0m[32mncyc      901;  Time    4.830951975e-05 (sec); dt=    2.642251593e-08 (dt_grow)[0m[32m [0m
+[1m[  1.61%] [0m[32mncyc      902;  Time    4.833594227e-05 (sec); dt=    3.302814491e-08 (dt_grow)[0m[32m [0m
+[1m[  1.61%] [0m[32mncyc      903;  Time    4.836897041e-05 (sec); dt=    4.128518114e-08 (dt_grow)[0m[32m [0m
+[1m[  1.61%] [0m[32mncyc      904;  Time    4.841025559e-05 (sec); dt=    5.160647642e-08 (dt_grow)[0m[32m [0m
+[1m[  1.62%] [0m[32mncyc      905;  Time    4.846186207e-05 (sec); dt=    6.450809553e-08 (dt_grow)[0m[32m [0m
+[1m[  1.62%] [0m[32mncyc      906;  Time    4.852637016e-05 (sec); dt=    8.063511941e-08 (dt_grow)[0m[32m [0m
+[1m[  1.62%] [0m[32mncyc      907;  Time    4.860700528e-05 (sec); dt=    1.007938993e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.62%] [0m[32mncyc      908;  Time    4.861960452e-05 (sec); dt=    1.574904676e-08 (dt_grow)[0m[32m [0m
+[1m[  1.62%] [0m[32mncyc      909;  Time    4.863535357e-05 (sec); dt=    1.968630845e-08 (dt_grow)[0m[32m [0m
+[1m[  1.62%] [0m[32mncyc      910;  Time    4.865503988e-05 (sec); dt=    2.460788556e-08 (dt_grow)[0m[32m [0m
+[1m[  1.62%] [0m[32mncyc      911;  Time    4.867964776e-05 (sec); dt=    3.075985695e-08 (dt_grow)[0m[32m [0m
+[1m[  1.62%] [0m[32mncyc      912;  Time    4.871040762e-05 (sec); dt=    3.844982119e-08 (dt_grow)[0m[32m [0m
+[1m[  1.62%] [0m[32mncyc      913;  Time    4.874885744e-05 (sec); dt=    4.806227649e-08 (dt_grow)[0m[32m [0m
+[1m[  1.63%] [0m[32mncyc      914;  Time    4.879691972e-05 (sec); dt=    6.007784561e-08 (dt_grow)[0m[32m [0m
+[1m[  1.63%] [0m[32mncyc      915;  Time    4.885699756e-05 (sec); dt=    7.509730701e-08 (dt_grow)[0m[32m [0m
+[1m[  1.63%] [0m[32mncyc      916;  Time    4.893209487e-05 (sec); dt=    9.387163377e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.63%] [0m[32mncyc      917;  Time    4.895556278e-05 (sec); dt=    2.933488555e-08 (dt_grow)[0m[32m [0m
+[1m[  1.63%] [0m[32mncyc      918;  Time    4.898489766e-05 (sec); dt=    3.666860694e-08 (dt_grow)[0m[32m [0m
+[1m[  1.63%] [0m[32mncyc      919;  Time    4.902156627e-05 (sec); dt=    4.583575868e-08 (dt_grow)[0m[32m [0m
+[1m[  1.64%] [0m[32mncyc      920;  Time    4.906740203e-05 (sec); dt=    5.729469834e-08 (dt_grow)[0m[32m [0m
+[1m[  1.64%] [0m[32mncyc      921;  Time    4.912469673e-05 (sec); dt=    7.161837293e-08 (dt_grow)[0m[32m [0m
+[1m[  1.64%] [0m[32mncyc      922;  Time    4.919631510e-05 (sec); dt=    8.952296616e-08 (dt_grow)[0m[32m [0m
+[1m[  1.64%] [0m[32mncyc      923;  Time    4.928583807e-05 (sec); dt=    1.119037077e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.64%] [0m[32mncyc      924;  Time    4.929982603e-05 (sec); dt=    1.748495433e-08 (dt_grow)[0m[32m [0m
+[1m[  1.64%] [0m[32mncyc      925;  Time    4.931731098e-05 (sec); dt=    2.185619291e-08 (dt_grow)[0m[32m [0m
+[1m[  1.64%] [0m[32mncyc      926;  Time    4.933916718e-05 (sec); dt=    2.732024114e-08 (dt_grow)[0m[32m [0m
+[1m[  1.65%] [0m[32mncyc      927;  Time    4.936648742e-05 (sec); dt=    3.415030142e-08 (dt_grow)[0m[32m [0m
+[1m[  1.65%] [0m[32mncyc      928;  Time    4.940063772e-05 (sec); dt=    4.268787678e-08 (dt_grow)[0m[32m [0m
+[1m[  1.65%] [0m[32mncyc      929;  Time    4.944332560e-05 (sec); dt=    5.335984597e-08 (dt_grow)[0m[32m [0m
+[1m[  1.65%] [0m[32mncyc      930;  Time    4.949668544e-05 (sec); dt=    6.669980747e-08 (dt_grow)[0m[32m [0m
+[1m[  1.65%] [0m[32mncyc      931;  Time    4.956338525e-05 (sec); dt=    8.337475933e-08 (dt_grow)[0m[32m [0m
+[1m[  1.65%] [0m[32mncyc      932;  Time    4.964676001e-05 (sec); dt=    1.042184492e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.66%] [0m[32mncyc      933;  Time    4.965978731e-05 (sec); dt=    1.628413268e-08 (dt_grow)[0m[32m [0m
+[1m[  1.66%] [0m[32mncyc      934;  Time    4.967607145e-05 (sec); dt=    2.035516585e-08 (dt_grow)[0m[32m [0m
+[1m[  1.66%] [0m[32mncyc      935;  Time    4.969642661e-05 (sec); dt=    2.544395732e-08 (dt_grow)[0m[32m [0m
+[1m[  1.66%] [0m[32mncyc      936;  Time    4.972187057e-05 (sec); dt=    3.180494665e-08 (dt_grow)[0m[32m [0m
+[1m[  1.66%] [0m[32mncyc      937;  Time    4.975367552e-05 (sec); dt=    3.975618331e-08 (dt_grow)[0m[32m [0m
+[1m[  1.66%] [0m[32mncyc      938;  Time    4.979343170e-05 (sec); dt=    4.969522913e-08 (dt_grow)[0m[32m [0m
+[1m[  1.66%] [0m[32mncyc      939;  Time    4.984312693e-05 (sec); dt=    6.211903642e-08 (dt_grow)[0m[32m [0m
+[1m[  1.66%] [0m[32mncyc      940;  Time    4.990524597e-05 (sec); dt=    7.764879552e-08 (dt_grow)[0m[32m [0m
+[1m[  1.67%] [0m[32mncyc      941;  Time    4.998289476e-05 (sec); dt=    9.706099440e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[35mWriting post file outputs_original/output/post000006_+5.00072e-05.h5 .........[0m
+[35mWriting post file outputs_original/output/post000006_+5.00072e-05.h5 complete[0m
+
+Removing restart file: outputs_original/restart0001.rst
+[35mWriting restart file outputs_original/restart0006.rst .........[0m
+[35mFinished writing restart file outputs_original/restart0006.rst[0m
+[1m[  1.67%] [0m[32mncyc      942;  Time    5.000716001e-05 (sec); dt=    3.033156075e-08 (dt_grow)[0m[32m [0m
+[1m[  1.67%] [0m[32mncyc      943;  Time    5.003749157e-05 (sec); dt=    3.791445094e-08 (dt_grow)[0m[32m [0m
+[1m[  1.67%] [0m[32mncyc      944;  Time    5.007540602e-05 (sec); dt=    4.739306367e-08 (dt_grow)[0m[32m [0m
+[1m[  1.67%] [0m[32mncyc      945;  Time    5.012279909e-05 (sec); dt=    5.924132959e-08 (dt_grow)[0m[32m [0m
+[1m[  1.67%] [0m[32mncyc      946;  Time    5.018204042e-05 (sec); dt=    7.405166199e-08 (dt_grow)[0m[32m [0m
+[1m[  1.68%] [0m[32mncyc      947;  Time    5.025609208e-05 (sec); dt=    9.256457748e-08 (dt_grow)[0m[32m [0m
+[1m[  1.68%] [0m[32mncyc      948;  Time    5.034865665e-05 (sec); dt=    1.157057219e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.68%] [0m[32mncyc      949;  Time    5.036311987e-05 (sec); dt=    1.807901904e-08 (dt_grow)[0m[32m [0m
+[1m[  1.68%] [0m[32mncyc      950;  Time    5.038119889e-05 (sec); dt=    2.259877380e-08 (dt_grow)[0m[32m [0m
+[1m[  1.68%] [0m[32mncyc      951;  Time    5.040379766e-05 (sec); dt=    2.824846725e-08 (dt_grow)[0m[32m [0m
+[1m[  1.68%] [0m[32mncyc      952;  Time    5.043204613e-05 (sec); dt=    3.531058406e-08 (dt_grow)[0m[32m [0m
+[1m[  1.68%] [0m[32mncyc      953;  Time    5.046735671e-05 (sec); dt=    4.413823008e-08 (dt_grow)[0m[32m [0m
+[1m[  1.68%] [0m[32mncyc      954;  Time    5.051149494e-05 (sec); dt=    5.517278760e-08 (dt_grow)[0m[32m [0m
+[1m[  1.69%] [0m[32mncyc      955;  Time    5.056666773e-05 (sec); dt=    6.896598450e-08 (dt_grow)[0m[32m [0m
+[1m[  1.69%] [0m[32mncyc      956;  Time    5.063563372e-05 (sec); dt=    8.620748062e-08 (dt_grow)[0m[32m [0m
+[1m[  1.69%] [0m[32mncyc      957;  Time    5.072184120e-05 (sec); dt=    1.077593508e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.69%] [0m[32mncyc      958;  Time    5.073531112e-05 (sec); dt=    1.683739856e-08 (dt_grow)[0m[32m [0m
+[1m[  1.69%] [0m[32mncyc      959;  Time    5.075214851e-05 (sec); dt=    2.104674820e-08 (dt_grow)[0m[32m [0m
+[1m[  1.69%] [0m[32mncyc      960;  Time    5.077319526e-05 (sec); dt=    2.630843525e-08 (dt_grow)[0m[32m [0m
+[1m[  1.69%] [0m[32mncyc      961;  Time    5.079950370e-05 (sec); dt=    3.288554406e-08 (dt_grow)[0m[32m [0m
+[1m[  1.69%] [0m[32mncyc      962;  Time    5.083238924e-05 (sec); dt=    4.110693008e-08 (dt_grow)[0m[32m [0m
+[1m[  1.70%] [0m[32mncyc      963;  Time    5.087349617e-05 (sec); dt=    5.138366259e-08 (dt_grow)[0m[32m [0m
+[1m[  1.70%] [0m[32mncyc      964;  Time    5.092487983e-05 (sec); dt=    6.422957824e-08 (dt_grow)[0m[32m [0m
+[1m[  1.70%] [0m[32mncyc      965;  Time    5.098910941e-05 (sec); dt=    8.028697280e-08 (dt_grow)[0m[32m [0m
+[1m[  1.70%] [0m[32mncyc      966;  Time    5.106939639e-05 (sec); dt=    1.003587160e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.70%] [0m[32mncyc      967;  Time    5.108194123e-05 (sec); dt=    1.568104938e-08 (dt_grow)[0m[32m [0m
+[1m[  1.70%] [0m[32mncyc      968;  Time    5.109762227e-05 (sec); dt=    1.960131172e-08 (dt_grow)[0m[32m [0m
+[1m[  1.70%] [0m[32mncyc      969;  Time    5.111722359e-05 (sec); dt=    2.450163965e-08 (dt_grow)[0m[32m [0m
+[1m[  1.70%] [0m[32mncyc      970;  Time    5.114172523e-05 (sec); dt=    3.062704956e-08 (dt_grow)[0m[32m [0m
+[1m[  1.71%] [0m[32mncyc      971;  Time    5.117235228e-05 (sec); dt=    3.828381195e-08 (dt_grow)[0m[32m [0m
+[1m[  1.71%] [0m[32mncyc      972;  Time    5.121063609e-05 (sec); dt=    4.785476494e-08 (dt_grow)[0m[32m [0m
+[1m[  1.71%] [0m[32mncyc      973;  Time    5.125849085e-05 (sec); dt=    5.981845618e-08 (dt_grow)[0m[32m [0m
+[1m[  1.71%] [0m[32mncyc      974;  Time    5.131830931e-05 (sec); dt=    7.477307022e-08 (dt_grow)[0m[32m [0m
+[1m[  1.71%] [0m[32mncyc      975;  Time    5.139308238e-05 (sec); dt=    9.346633777e-08 (dt_grow)[0m[32m [0m
+[1m[  1.72%] [0m[32mncyc      976;  Time    5.148654872e-05 (sec); dt=    1.168329222e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.72%] [0m[32mncyc      977;  Time    5.150115283e-05 (sec); dt=    1.825514410e-08 (dt_grow)[0m[32m [0m
+[1m[  1.72%] [0m[32mncyc      978;  Time    5.151940798e-05 (sec); dt=    2.281893012e-08 (dt_grow)[0m[32m [0m
+[1m[  1.72%] [0m[32mncyc      979;  Time    5.154222691e-05 (sec); dt=    2.852366265e-08 (dt_grow)[0m[32m [0m
+[1m[  1.72%] [0m[32mncyc      980;  Time    5.157075057e-05 (sec); dt=    3.565457831e-08 (dt_grow)[0m[32m [0m
+[1m[  1.72%] [0m[32mncyc      981;  Time    5.160640515e-05 (sec); dt=    4.456822289e-08 (dt_grow)[0m[32m [0m
+[1m[  1.72%] [0m[32mncyc      982;  Time    5.165097337e-05 (sec); dt=    5.571027861e-08 (dt_grow)[0m[32m [0m
+[1m[  1.72%] [0m[32mncyc      983;  Time    5.170668365e-05 (sec); dt=    6.963784827e-08 (dt_grow)[0m[32m [0m
+[1m[  1.73%] [0m[32mncyc      984;  Time    5.177632150e-05 (sec); dt=    8.704731034e-08 (dt_grow)[0m[32m [0m
+[1m[  1.73%] [0m[32mncyc      985;  Time    5.186336881e-05 (sec); dt=    1.088091379e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.73%] [0m[32mncyc      986;  Time    5.187696995e-05 (sec); dt=    1.700142780e-08 (dt_grow)[0m[32m [0m
+[1m[  1.73%] [0m[32mncyc      987;  Time    5.189397138e-05 (sec); dt=    2.125178475e-08 (dt_grow)[0m[32m [0m
+[1m[  1.73%] [0m[32mncyc      988;  Time    5.191522316e-05 (sec); dt=    2.656473094e-08 (dt_grow)[0m[32m [0m
+[1m[  1.73%] [0m[32mncyc      989;  Time    5.194178789e-05 (sec); dt=    3.320591367e-08 (dt_grow)[0m[32m [0m
+[1m[  1.73%] [0m[32mncyc      990;  Time    5.197499381e-05 (sec); dt=    4.150739209e-08 (dt_grow)[0m[32m [0m
+[1m[  1.73%] [0m[32mncyc      991;  Time    5.201650120e-05 (sec); dt=    5.188424011e-08 (dt_grow)[0m[32m [0m
+[1m[  1.74%] [0m[32mncyc      992;  Time    5.206838544e-05 (sec); dt=    6.485530014e-08 (dt_grow)[0m[32m [0m
+[1m[  1.74%] [0m[32mncyc      993;  Time    5.213324074e-05 (sec); dt=    8.106912518e-08 (dt_grow)[0m[32m [0m
+[1m[  1.74%] [0m[32mncyc      994;  Time    5.221430986e-05 (sec); dt=    1.013364065e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.74%] [0m[32mncyc      995;  Time    5.223964397e-05 (sec); dt=    3.166762702e-08 (dt_grow)[0m[32m [0m
+[1m[  1.74%] [0m[32mncyc      996;  Time    5.227131159e-05 (sec); dt=    3.958453378e-08 (dt_grow)[0m[32m [0m
+[1m[  1.74%] [0m[32mncyc      997;  Time    5.231089613e-05 (sec); dt=    4.948066722e-08 (dt_grow)[0m[32m [0m
+[1m[  1.75%] [0m[32mncyc      998;  Time    5.236037679e-05 (sec); dt=    6.185083403e-08 (dt_grow)[0m[32m [0m
+[1m[  1.75%] [0m[32mncyc      999;  Time    5.242222763e-05 (sec); dt=    7.731354253e-08 (dt_grow)[0m[32m [0m
+[1m[  1.75%] [0m[32mncyc     1000;  Time    5.249954117e-05 (sec); dt=    9.664192817e-08 (dt_grow)[0m[32m [0m
+[1m[  1.75%] [0m[32mncyc     1001;  Time    5.259618310e-05 (sec); dt=    1.208024102e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.75%] [0m[32mncyc     1002;  Time    5.261128340e-05 (sec); dt=    1.887537660e-08 (dt_grow)[0m[32m [0m
+[1m[  1.75%] [0m[32mncyc     1003;  Time    5.263015878e-05 (sec); dt=    2.359422074e-08 (dt_grow)[0m[32m [0m
+[1m[  1.76%] [0m[32mncyc     1004;  Time    5.265375300e-05 (sec); dt=    2.949277593e-08 (dt_grow)[0m[32m [0m
+[1m[  1.76%] [0m[32mncyc     1005;  Time    5.268324577e-05 (sec); dt=    3.686596991e-08 (dt_grow)[0m[32m [0m
+[1m[  1.76%] [0m[32mncyc     1006;  Time    5.272011174e-05 (sec); dt=    4.608246239e-08 (dt_grow)[0m[32m [0m
+[1m[  1.76%] [0m[32mncyc     1007;  Time    5.276619421e-05 (sec); dt=    5.760307799e-08 (dt_grow)[0m[32m [0m
+[1m[  1.76%] [0m[32mncyc     1008;  Time    5.282379728e-05 (sec); dt=    7.200384748e-08 (dt_grow)[0m[32m [0m
+[1m[  1.76%] [0m[32mncyc     1009;  Time    5.289580113e-05 (sec); dt=    9.000480936e-08 (dt_grow)[0m[32m [0m
+[1m[  1.77%] [0m[32mncyc     1010;  Time    5.298580594e-05 (sec); dt=    1.125060117e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.77%] [0m[32mncyc     1011;  Time    5.299986919e-05 (sec); dt=    1.757906433e-08 (dt_grow)[0m[32m [0m
+[1m[  1.77%] [0m[32mncyc     1012;  Time    5.301744826e-05 (sec); dt=    2.197383041e-08 (dt_grow)[0m[32m [0m
+[1m[  1.77%] [0m[32mncyc     1013;  Time    5.303942209e-05 (sec); dt=    2.746728801e-08 (dt_grow)[0m[32m [0m
+[1m[  1.77%] [0m[32mncyc     1014;  Time    5.306688937e-05 (sec); dt=    3.433411001e-08 (dt_grow)[0m[32m [0m
+[1m[  1.77%] [0m[32mncyc     1015;  Time    5.310122348e-05 (sec); dt=    4.291763752e-08 (dt_grow)[0m[32m [0m
+[1m[  1.77%] [0m[32mncyc     1016;  Time    5.314414112e-05 (sec); dt=    5.364704690e-08 (dt_grow)[0m[32m [0m
+[1m[  1.77%] [0m[32mncyc     1017;  Time    5.319778817e-05 (sec); dt=    6.705880862e-08 (dt_grow)[0m[32m [0m
+[1m[  1.78%] [0m[32mncyc     1018;  Time    5.326484698e-05 (sec); dt=    8.382351078e-08 (dt_grow)[0m[32m [0m
+[1m[  1.78%] [0m[32mncyc     1019;  Time    5.334867049e-05 (sec); dt=    1.047793885e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.78%] [0m[32mncyc     1020;  Time    5.337486534e-05 (sec); dt=    3.274355890e-08 (dt_grow)[0m[32m [0m
+[1m[  1.78%] [0m[32mncyc     1021;  Time    5.340760889e-05 (sec); dt=    4.092944862e-08 (dt_grow)[0m[32m [0m
+[1m[  1.78%] [0m[32mncyc     1022;  Time    5.344853834e-05 (sec); dt=    5.116181078e-08 (dt_grow)[0m[32m [0m
+[1m[  1.78%] [0m[32mncyc     1023;  Time    5.349970015e-05 (sec); dt=    6.395226347e-08 (dt_grow)[0m[32m [0m
+[1m[  1.79%] [0m[32mncyc     1024;  Time    5.356365242e-05 (sec); dt=    7.994032934e-08 (dt_grow)[0m[32m [0m
+[1m[  1.79%] [0m[32mncyc     1025;  Time    5.364359275e-05 (sec); dt=    9.992541167e-08 (dt_grow)[0m[32m [0m
+[1m[  1.79%] [0m[32mncyc     1026;  Time    5.374351816e-05 (sec); dt=    1.249067646e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.79%] [0m[32mncyc     1027;  Time    5.375913150e-05 (sec); dt=    1.951668197e-08 (dt_grow)[0m[32m [0m
+[1m[  1.79%] [0m[32mncyc     1028;  Time    5.377864819e-05 (sec); dt=    2.439585246e-08 (dt_grow)[0m[32m [0m
+[1m[  1.79%] [0m[32mncyc     1029;  Time    5.380304404e-05 (sec); dt=    3.049481557e-08 (dt_grow)[0m[32m [0m
+[1m[  1.79%] [0m[32mncyc     1030;  Time    5.383353885e-05 (sec); dt=    3.811851947e-08 (dt_grow)[0m[32m [0m
+[1m[  1.80%] [0m[32mncyc     1031;  Time    5.387165737e-05 (sec); dt=    4.764814933e-08 (dt_grow)[0m[32m [0m
+[1m[  1.80%] [0m[32mncyc     1032;  Time    5.391930552e-05 (sec); dt=    5.956018667e-08 (dt_grow)[0m[32m [0m
+[1m[  1.80%] [0m[32mncyc     1033;  Time    5.397886571e-05 (sec); dt=    7.445023334e-08 (dt_grow)[0m[32m [0m
+[1m[  1.80%] [0m[32mncyc     1034;  Time    5.405331594e-05 (sec); dt=    9.306279167e-08 (dt_grow)[0m[32m [0m
+[1m[  1.80%] [0m[32mncyc     1035;  Time    5.414637873e-05 (sec); dt=    1.163284896e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.81%] [0m[32mncyc     1036;  Time    5.416091980e-05 (sec); dt=    1.817632650e-08 (dt_grow)[0m[32m [0m
+[1m[  1.81%] [0m[32mncyc     1037;  Time    5.417909612e-05 (sec); dt=    2.272040812e-08 (dt_grow)[0m[32m [0m
+[1m[  1.81%] [0m[32mncyc     1038;  Time    5.420181653e-05 (sec); dt=    2.840051015e-08 (dt_grow)[0m[32m [0m
+[1m[  1.81%] [0m[32mncyc     1039;  Time    5.423021704e-05 (sec); dt=    3.550063769e-08 (dt_grow)[0m[32m [0m
+[1m[  1.81%] [0m[32mncyc     1040;  Time    5.426571768e-05 (sec); dt=    4.437579711e-08 (dt_grow)[0m[32m [0m
+[1m[  1.81%] [0m[32mncyc     1041;  Time    5.431009347e-05 (sec); dt=    5.546974639e-08 (dt_grow)[0m[32m [0m
+[1m[  1.81%] [0m[32mncyc     1042;  Time    5.436556322e-05 (sec); dt=    6.933718299e-08 (dt_grow)[0m[32m [0m
+[1m[  1.81%] [0m[32mncyc     1043;  Time    5.443490040e-05 (sec); dt=    8.667147874e-08 (dt_grow)[0m[32m [0m
+[1m[  1.82%] [0m[32mncyc     1044;  Time    5.452157188e-05 (sec); dt=    1.083393484e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.82%] [0m[32mncyc     1045;  Time    5.454865672e-05 (sec); dt=    3.385604638e-08 (dt_grow)[0m[32m [0m
+[1m[  1.82%] [0m[32mncyc     1046;  Time    5.458251277e-05 (sec); dt=    4.232005798e-08 (dt_grow)[0m[32m [0m
+[1m[  1.82%] [0m[32mncyc     1047;  Time    5.462483282e-05 (sec); dt=    5.290007247e-08 (dt_grow)[0m[32m [0m
+[1m[  1.82%] [0m[32mncyc     1048;  Time    5.467773290e-05 (sec); dt=    6.612509059e-08 (dt_grow)[0m[32m [0m
+[1m[  1.82%] [0m[32mncyc     1049;  Time    5.474385799e-05 (sec); dt=    8.265636324e-08 (dt_grow)[0m[32m [0m
+[1m[  1.83%] [0m[32mncyc     1050;  Time    5.482651435e-05 (sec); dt=    1.033204540e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.83%] [0m[32mncyc     1051;  Time    5.485234446e-05 (sec); dt=    3.228764189e-08 (dt_grow)[0m[32m [0m
+[1m[  1.83%] [0m[32mncyc     1052;  Time    5.488463211e-05 (sec); dt=    4.035955236e-08 (dt_grow)[0m[32m [0m
+[1m[  1.83%] [0m[32mncyc     1053;  Time    5.492499166e-05 (sec); dt=    5.044944045e-08 (dt_grow)[0m[32m [0m
+[1m[  1.83%] [0m[32mncyc     1054;  Time    5.497544110e-05 (sec); dt=    6.306180057e-08 (dt_grow)[0m[32m [0m
+[1m[  1.83%] [0m[32mncyc     1055;  Time    5.503850290e-05 (sec); dt=    7.882725071e-08 (dt_grow)[0m[32m [0m
+[1m[  1.84%] [0m[32mncyc     1056;  Time    5.511733015e-05 (sec); dt=    9.853406338e-08 (dt_grow)[0m[32m [0m
+[1m[  1.84%] [0m[32mncyc     1057;  Time    5.521586421e-05 (sec); dt=    1.231675792e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.84%] [0m[32mncyc     1058;  Time    5.523126016e-05 (sec); dt=    1.924493425e-08 (dt_grow)[0m[32m [0m
+[1m[  1.84%] [0m[32mncyc     1059;  Time    5.525050510e-05 (sec); dt=    2.405616782e-08 (dt_grow)[0m[32m [0m
+[1m[  1.84%] [0m[32mncyc     1060;  Time    5.527456126e-05 (sec); dt=    3.007020977e-08 (dt_grow)[0m[32m [0m
+[1m[  1.84%] [0m[32mncyc     1061;  Time    5.530463147e-05 (sec); dt=    3.758776222e-08 (dt_grow)[0m[32m [0m
+[1m[  1.84%] [0m[32mncyc     1062;  Time    5.534221923e-05 (sec); dt=    4.698470277e-08 (dt_grow)[0m[32m [0m
+[1m[  1.85%] [0m[32mncyc     1063;  Time    5.538920394e-05 (sec); dt=    5.873087846e-08 (dt_grow)[0m[32m [0m
+[1m[  1.85%] [0m[32mncyc     1064;  Time    5.544793482e-05 (sec); dt=    7.341359808e-08 (dt_grow)[0m[32m [0m
+[1m[  1.85%] [0m[32mncyc     1065;  Time    5.552134841e-05 (sec); dt=    9.176699760e-08 (dt_grow)[0m[32m [0m
+[1m[  1.85%] [0m[32mncyc     1066;  Time    5.561311541e-05 (sec); dt=    1.147087470e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.85%] [0m[32mncyc     1067;  Time    5.562745401e-05 (sec); dt=    1.792324172e-08 (dt_grow)[0m[32m [0m
+[1m[  1.85%] [0m[32mncyc     1068;  Time    5.564537725e-05 (sec); dt=    2.240405215e-08 (dt_grow)[0m[32m [0m
+[1m[  1.86%] [0m[32mncyc     1069;  Time    5.566778130e-05 (sec); dt=    2.800506519e-08 (dt_grow)[0m[32m [0m
+[1m[  1.86%] [0m[32mncyc     1070;  Time    5.569578636e-05 (sec); dt=    3.500633148e-08 (dt_grow)[0m[32m [0m
+[1m[  1.86%] [0m[32mncyc     1071;  Time    5.573079270e-05 (sec); dt=    4.375791435e-08 (dt_grow)[0m[32m [0m
+[1m[  1.86%] [0m[32mncyc     1072;  Time    5.577455061e-05 (sec); dt=    5.469739294e-08 (dt_grow)[0m[32m [0m
+[1m[  1.86%] [0m[32mncyc     1073;  Time    5.582924800e-05 (sec); dt=    6.837174117e-08 (dt_grow)[0m[32m [0m
+[1m[  1.86%] [0m[32mncyc     1074;  Time    5.589761974e-05 (sec); dt=    8.546467647e-08 (dt_grow)[0m[32m [0m
+[1m[  1.87%] [0m[32mncyc     1075;  Time    5.598308442e-05 (sec); dt=    1.068308456e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.87%] [0m[32mncyc     1076;  Time    5.600979213e-05 (sec); dt=    3.338463925e-08 (dt_grow)[0m[32m [0m
+[1m[  1.87%] [0m[32mncyc     1077;  Time    5.604317677e-05 (sec); dt=    4.173079906e-08 (dt_grow)[0m[32m [0m
+[1m[  1.87%] [0m[32mncyc     1078;  Time    5.608490757e-05 (sec); dt=    5.216349882e-08 (dt_grow)[0m[32m [0m
+[1m[  1.87%] [0m[32mncyc     1079;  Time    5.613707107e-05 (sec); dt=    6.520437353e-08 (dt_grow)[0m[32m [0m
+[1m[  1.87%] [0m[32mncyc     1080;  Time    5.620227544e-05 (sec); dt=    8.150546691e-08 (dt_grow)[0m[32m [0m
+[1m[  1.88%] [0m[32mncyc     1081;  Time    5.628378091e-05 (sec); dt=    1.018818336e-07 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.88%] [0m[32mncyc     1082;  Time    5.629651614e-05 (sec); dt=    1.591903651e-08 (dt_grow)[0m[32m [0m
+[1m[  1.88%] [0m[32mncyc     1083;  Time    5.631243518e-05 (sec); dt=    1.989879563e-08 (dt_grow)[0m[32m [0m
+[1m[  1.88%] [0m[32mncyc     1084;  Time    5.633233397e-05 (sec); dt=    2.487349454e-08 (dt_grow)[0m[32m [0m
+[1m[  1.88%] [0m[32mncyc     1085;  Time    5.635720747e-05 (sec); dt=    3.109186817e-08 (dt_grow)[0m[32m [0m
+[1m[  1.88%] [0m[32mncyc     1086;  Time    5.638829933e-05 (sec); dt=    3.886483522e-08 (dt_grow)[0m[32m [0m
+[1m[  1.88%] [0m[32mncyc     1087;  Time    5.642716417e-05 (sec); dt=    4.858104402e-08 (dt_grow)[0m[32m [0m
+[1m[  1.88%] [0m[32mncyc     1088;  Time    5.647574521e-05 (sec); dt=    6.072630503e-08 (dt_grow)[0m[32m [0m
+[1m[  1.88%] [0m[32mncyc     1089;  Time    5.653647152e-05 (sec); dt=    7.590788129e-08 (dt_grow)[0m[32m [0m
+[1m[  1.89%] [0m[32mncyc     1090;  Time    5.661237940e-05 (sec); dt=    9.488485161e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.89%] [0m[32mncyc     1091;  Time    5.662424001e-05 (sec); dt=    1.482575806e-08 (dt_grow)[0m[32m [0m
+[1m[  1.89%] [0m[32mncyc     1092;  Time    5.663906576e-05 (sec); dt=    1.853219758e-08 (dt_grow)[0m[32m [0m
+[1m[  1.89%] [0m[32mncyc     1093;  Time    5.665759796e-05 (sec); dt=    2.316524697e-08 (dt_grow)[0m[32m [0m
+[1m[  1.89%] [0m[32mncyc     1094;  Time    5.668076321e-05 (sec); dt=    2.895655872e-08 (dt_grow)[0m[32m [0m
+[1m[  1.89%] [0m[32mncyc     1095;  Time    5.670971977e-05 (sec); dt=    3.619569840e-08 (dt_grow)[0m[32m [0m
+[1m[  1.89%] [0m[32mncyc     1096;  Time    5.674591547e-05 (sec); dt=    4.524462300e-08 (dt_grow)[0m[32m [0m
+[1m[  1.89%] [0m[32mncyc     1097;  Time    5.679116009e-05 (sec); dt=    5.655577875e-08 (dt_grow)[0m[32m [0m
+[1m[  1.89%] [0m[32mncyc     1098;  Time    5.684771587e-05 (sec); dt=    7.069472343e-08 (dt_grow)[0m[32m [0m
+[1m[  1.90%] [0m[32mncyc     1099;  Time    5.691841059e-05 (sec); dt=    8.836840429e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.90%] [0m[32mncyc     1100;  Time    5.696259479e-05 (sec); dt=    5.523025268e-08 (dt_grow)[0m[32m [0m
+[1m[  1.90%] [0m[32mncyc     1101;  Time    5.701782505e-05 (sec); dt=    6.903781585e-08 (dt_grow)[0m[32m [0m
+[1m[  1.90%] [0m[32mncyc     1102;  Time    5.708686286e-05 (sec); dt=    8.629726982e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.90%] [0m[32mncyc     1103;  Time    5.713001150e-05 (sec); dt=    5.393579363e-08 (dt_grow)[0m[32m [0m
+[1m[  1.91%] [0m[32mncyc     1104;  Time    5.718394729e-05 (sec); dt=    6.741974204e-08 (dt_grow)[0m[32m [0m
+[1m[  1.91%] [0m[32mncyc     1105;  Time    5.725136703e-05 (sec); dt=    8.427467755e-08 (dt_grow)[0m[32m [0m
+[36mrecovering .... because transport equations did not converge or energy extrapolations[0m
+[1m[  1.91%] [0m[32mncyc     1106;  Time    5.729350437e-05 (sec); dt=    5.267167347e-08 (dt_grow)[0m[32m [0m
+[1m[  1.91%] [0m[32mncyc     1107;  Time    5.734617604e-05 (sec); dt=    6.583959184e-08 (dt_grow)[0m[32m [0m
+[1m[  1.91%] [0m[32mncyc     1108;  Time    5.741201564e-05 (sec); dt=    8.229948980e-08 (dt_grow)[0m[32m [0m

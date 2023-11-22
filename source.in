@@ -1,0 +1,47 @@
+version: 3.1
+##!Exported by CONVERGE Studio v3.1 May 10 2023 14:30:26
+---
+
+-  source:
+      description:        Source 1
+      equation:           ENERGY                                      # Source equation (ENERGY, U-EQ, V-EQ, W-EQ, TKE, EPS, [species], [passive], POROUS, BAFFLE, BATTERY, RELAXATION_ZONE).
+      type:               TOTAL_VALUE                                 # Source type: PER_UNIT_VOLUME_TIME, PER_UNIT_TIME, TOTAL_VALUE, PRESSURE_TRACE, HEAT_RELEASE_DATA, HATCHARD_KIM_MODEL, REN_MODEL.
+      value:              100000                                      # Value.
+      stream_id:          ALL
+      temporal_control:
+         type:            SEQUENTIAL                                  # Temporal type.
+         source_start_time: 2.001                                     # The start time, in seconds or crank angle degrees, for the Source/Sink model.
+         source_end_time: 2.00100045                                  # The end time, in seconds or crank angle degrees, for the Source/Sink model.
+      max_value:          3000                                        # Maximum value for the source.
+      shape:
+         type:            BOX                                         # Source shape (BOX, SPHERE, CYLINDER, REGION, LINE, CIRCLE, BOUNDARY).
+         x_center:        [0.01, 0.021, 0]
+         x_size:          [0.012, 0.04, 0.001]                        # The size of the box-shaped source.
+      moving_control:
+         moving_flag:     STATIONARY                                  # 0=Stationary, 1=Prescribed velocity; 2 = Move with flow; 3 = Move with boundary.
+         velocity:        [0, 0, 0]                                   # Velocity vector of the source.
+         max_displace:    999999                                      # Distance for the maximum displacement of source.
+         reset_source_flag: DO_NOT_RESET                              # Displacement control (0-2). Refer to the documentation for details.
+      mult_dt_source:     1                                           # Source time-step multiplier.
+-  source:
+      description:        Source 2
+      equation:           U-EQ                                        # Source equation (ENERGY, U-EQ, V-EQ, W-EQ, TKE, EPS, [species], [passive], POROUS, BAFFLE, BATTERY, RELAXATION_ZONE).
+      type:               PER_UNIT_VOLUME_TIME                        # Source type: PER_UNIT_VOLUME_TIME, PER_UNIT_TIME, TOTAL_VALUE, PRESSURE_TRACE, HEAT_RELEASE_DATA, HATCHARD_KIM_MODEL, REN_MODEL.
+      value:              1000000                                     # Unit volume. Refer to the documentation for details.
+      stream_id:          ALL
+      temporal_control:
+         type:            SEQUENTIAL                                  # Temporal type.
+         source_start_time: 2.001                                     # The start time, in seconds or crank angle degrees, for the Source/Sink model.
+         source_end_time: 2.00100045                                  # The end time, in seconds or crank angle degrees, for the Source/Sink model.
+      max_value:          1000                                        # Maximum value for the source.
+      shape:
+         type:            BOX                                         # Source shape (BOX, SPHERE, CYLINDER, REGION, LINE, CIRCLE, BOUNDARY).
+         x_center:        [0.01, 0.021, 0]
+         x_size:          [0.012, 0.04, 0.001]                        # The size of the box-shaped source.
+      moving_control:
+         moving_flag:     STATIONARY                                  # 0=Stationary, 1=Prescribed velocity; 2 = Move with flow; 3 = Move with boundary.
+         velocity:        [0, 0, 0]                                   # Velocity vector of the source.
+         max_displace:    999999                                      # Distance for the maximum displacement of source.
+         reset_source_flag: DO_NOT_RESET                              # Displacement control (0-2). Refer to the documentation for details.
+      mult_dt_source:     1                                           # Source time-step multiplier.
+

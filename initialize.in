@@ -1,0 +1,61 @@
+version: 3.1
+##!Exported by CONVERGE Studio v3.1 May 10 2023 14:30:26
+---
+
+-  region:
+      region_id:          0                                           # Region ID.
+      vel_init:           [0, 0, 0]                                   # Initial velocity in the region (m/s).
+      temp_init:          313.15                                      # Initial temperature in the region (K).
+      pres_init:          1034000                                     # Initial absolute pressure in the region (Pa).
+      turbulence_init:
+         approach:        value
+         value:
+            sgs_ke:       1
+      species_init:
+         H2:              0.1357
+         O2:              0.8643
+      passive_init:
+         {}
+-  region:
+      region_id:          1                                           # Region ID.
+      vel_init:           [0, 0, 0]                                   # Initial velocity in the region (m/s).
+      temp_init:          313.15                                      # Initial temperature in the region (K).
+      pres_init:          101325                                      # Initial absolute pressure in the region (Pa).
+      turbulence_init:
+         approach:        value
+         value:
+            sgs_ke:       1
+      species_init:
+         H2:              0.1357
+         O2:              0.8643
+      passive_init:
+         {}
+-  region:
+      region_id:          2                                           # Region ID.
+      vel_init:           [-2900, 0, 0]                               # Initial velocity in the region (m/s).
+      temp_init:          3000.15                                     # Initial temperature in the region (K).
+      pres_init:          1034000                                     # Initial absolute pressure in the region (Pa).
+      turbulence_init:
+         approach:        value
+         value:
+            sgs_ke:       1
+      species_init:
+         H2:              0.1357
+         O2:              0.8643
+      passive_init:
+         {}
+-  region:
+      region_id:          3                                           # Region ID.
+      vel_init:           [-1000, 0, 0]                               # Initial velocity in the region (m/s).
+      temp_init:          300.15                                      # Initial temperature in the region (K).
+      pres_init:          50662.5                                     # Initial absolute pressure in the region (Pa).
+      turbulence_init:
+         approach:        value
+         value:
+            sgs_ke:       1
+      species_init:
+         H2:              0
+         O2:              1
+      passive_init:
+         {}
+

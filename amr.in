@@ -1,0 +1,42 @@
+version: 3.1
+##!Exported by CONVERGE Studio v3.1 May 10 2023 14:30:26
+---
+
+amr_settings:
+   cycle_steady:          100                                         # Number of cycles between AMR calculations.
+   max_cells:             90000000                                    # Maximum number of cells in the entire domain.
+   min_cells:             1                                           # Minimum number of cells in the entire domain.
+   embed_frequency:       1                                           # Specify number of cycles/iterations between embed events.
+   release_frequency:     25                                          # Specify number of cycles/iterations between release events.
+amr_groups:
+   -  amr_group:
+         amr_regions:     [1, 2, 3, 0]                                # Active AMR region.
+         amr_velocity:
+            active:       1                                           # Enable AMR based on velocity conditions.
+            embed_scale:  2                                           # Maximum embedding level for velocity.
+            sgs_embed:    2                                           # Minimum velocity sub-grid value above which a cell will be embedded.
+            temporal_type: PERMANENT                                  # Timing control type.
+            amr_type:     sgs
+         amr_temperature:
+            active:       1                                           # Enable AMR based on temperature conditions.
+            embed_scale:  2                                           # Maximum embedding level for temperature.
+            sgs_embed:    5                                           # Minimum temperature sub-grid value above which a cell will be embedded.
+            temporal_type: PERMANENT                                  # Timing control type.
+            amr_type:     sgs
+         amr_species:
+            species_active: 1                                         # Enable AMR based on species conditions.
+            default_embed_scale: 2                                    # Maximum embedding level for species.
+            species_list:
+               -  species:
+                     active: 1
+                     name: OH                                         # Species name.
+                     sgs_embed: 0.001                                 # Minimum sub-grid value of species mass fraction that will trigger AMR.
+                     temporal_type: PERMANENT                         # Temporal type and cyclic period.
+                     amr_type: sgs                                    # Select AMR type.
+amr_bounds:
+   []
+amr_yplus_restrict:
+   []
+amr_proximity:
+   []
+

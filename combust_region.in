@@ -1,0 +1,21 @@
+version: 3.1
+##!Exported by CONVERGE Studio v3.1 May 10 2023 14:30:26
+---
+
+combust_region_control:
+   -  combust_region:
+         region_id:       1                                           # The regions for calculation. The region_id must be included in "initialize.in".
+         temporal_type:   PERMANENT                                   # Temporal type.
+         start_time:      -999999                                     # Combustion start time.
+         end_time:        -999999                                     # Combustion end time.
+   -  combust_region:
+         region_id:       2                                           # The regions for calculation. The region_id must be included in "initialize.in".
+         temporal_type:   PERMANENT                                   # Temporal type.
+         start_time:      -999999                                     # Combustion start time.
+         end_time:        -999999                                     # Combustion end time.
+   -  combust_region:
+         region_id:       3                                           # The regions for calculation. The region_id must be included in "initialize.in".
+         temporal_type:   PERMANENT                                   # Temporal type.
+         start_time:      -999999                                     # Combustion start time.
+         end_time:        -999999                                     # Combustion end time.
+

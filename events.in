@@ -1,0 +1,31 @@
+version: 3.1
+##!Exported by CONVERGE Studio v3.1 May 10 2023 14:30:26
+---
+
+events:
+   -  event:
+         type:            open                                        # Event type: open, close, valve, rigid_fsi, beam.
+         regions:         [0, 1]                                      # Event region(s).
+         contact_resistance_flag: 0                                   # Event contact resistance flag.
+         temporal_type:   PERMANENT                                   # Event temporal type.
+   -  event:
+         type:            open                                        # Event type: open, close, valve, rigid_fsi, beam.
+         regions:         [1, 2]                                      # Event region(s).
+         contact_resistance_flag: 0                                   # Event contact resistance flag.
+         temporal_type:   PERMANENT                                   # Event temporal type.
+   -  event:
+         type:            open                                        # Event type: open, close, valve, rigid_fsi, beam.
+         regions:         [1, 3]                                      # Event region(s).
+         contact_resistance_flag: 0                                   # Event contact resistance flag.
+         temporal_type:   PERMANENT                                   # Event temporal type.
+   -  event:
+         type:            open                                        # Event type: open, close, valve, rigid_fsi, beam.
+         regions:         [0, 2]                                      # Event region(s).
+         contact_resistance_flag: 0                                   # Event contact resistance flag.
+         temporal_type:   PERMANENT                                   # Event temporal type.
+   -  event:
+         type:            open                                        # Event type: open, close, valve, rigid_fsi, beam.
+         regions:         [0, 3]                                      # Event region(s).
+         contact_resistance_flag: 0                                   # Event contact resistance flag.
+         temporal_type:   PERMANENT                                   # Event temporal type.
+

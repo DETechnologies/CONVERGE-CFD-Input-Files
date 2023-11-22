@@ -1,0 +1,32 @@
+version: 3.1
+##!Exported by CONVERGE Studio v3.1 May 10 2023 14:30:26
+---
+
+-  embedding:
+      embed_type:         BOUND                                       # Type of embedding. NOZZLE and INJECTOR are disabled if Parcel simulation is not active.
+      boundary_id:        2                                           # Boundary identifier (from boundary.in) that defines the boundary on which embedding is to be added.
+      embed_scale:        2                                           # Defines the level of refinement for embedding. Represents the value of n in dx_base/2^n.
+      num_embed:          1                                           # Number of layers of embedding (at the specified embed_scale) to be added to the boundary.
+      temporal_type:      PERMANENT
+      start_time:         -999999                                     # Time when embedding starts. Not used when temporal_type is PERMANENT.
+      end_time:           -999999                                     # Time when embedding ends. Not used when temporal_type is PERMANENT.
+      description:        Embedding 1
+-  embedding:
+      embed_type:         BOUND                                       # Type of embedding. NOZZLE and INJECTOR are disabled if Parcel simulation is not active.
+      boundary_id:        4                                           # Boundary identifier (from boundary.in) that defines the boundary on which embedding is to be added.
+      embed_scale:        2                                           # Defines the level of refinement for embedding. Represents the value of n in dx_base/2^n.
+      num_embed:          1                                           # Number of layers of embedding (at the specified embed_scale) to be added to the boundary.
+      temporal_type:      PERMANENT
+      start_time:         -999999                                     # Time when embedding starts. Not used when temporal_type is PERMANENT.
+      end_time:           -999999                                     # Time when embedding ends. Not used when temporal_type is PERMANENT.
+      description:        Embedding 3
+-  embedding:
+      embed_type:         BOUND                                       # Type of embedding. NOZZLE and INJECTOR are disabled if Parcel simulation is not active.
+      boundary_id:        3                                           # Boundary identifier (from boundary.in) that defines the boundary on which embedding is to be added.
+      embed_scale:        2                                           # Defines the level of refinement for embedding. Represents the value of n in dx_base/2^n.
+      num_embed:          1                                           # Number of layers of embedding (at the specified embed_scale) to be added to the boundary.
+      temporal_type:      PERMANENT
+      start_time:         -999999                                     # Time when embedding starts. Not used when temporal_type is PERMANENT.
+      end_time:           -999999                                     # Time when embedding ends. Not used when temporal_type is PERMANENT.
+      description:        Embedding 4
+
